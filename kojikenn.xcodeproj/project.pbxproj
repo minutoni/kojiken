@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		773924881D01B28E00531DFC /* UITableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773924871D01B28E00531DFC /* UITableViewController.swift */; };
+		77744B301CCA3EE600D4024A /* logo_meikeiのコピー.png in Resources */ = {isa = PBXBuildFile; fileRef = 77744B2F1CCA3EE600D4024A /* logo_meikeiのコピー.png */; };
+		77744B341CCA478C00D4024A /* mmd.png in Resources */ = {isa = PBXBuildFile; fileRef = 77744B331CCA478C00D4024A /* mmd.png */; };
+		77B2ECFC1CDEE84700665F95 /* AccessUIserchviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B2ECFB1CDEE84700665F95 /* AccessUIserchviewController.swift */; };
+		77EF7EAC1CAF8E9A0071347A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77EF7EAB1CAF8E9A0071347A /* AppDelegate.swift */; };
+		77EF7EAE1CAF8E9A0071347A /* QRCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77EF7EAD1CAF8E9A0071347A /* QRCodeViewController.swift */; };
+		77EF7EB11CAF8E9A0071347A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77EF7EAF1CAF8E9A0071347A /* Main.storyboard */; };
+		77EF7EB31CAF8E9A0071347A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77EF7EB21CAF8E9A0071347A /* Assets.xcassets */; };
+		77EF7EB61CAF8E9A0071347A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77EF7EB41CAF8E9A0071347A /* LaunchScreen.storyboard */; };
+		77EF7EC11CAF8E9A0071347A /* kojikennTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77EF7EC01CAF8E9A0071347A /* kojikennTests.swift */; };
+		77EF7ECC1CAF8E9A0071347A /* kojikennUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77EF7ECB1CAF8E9A0071347A /* kojikennUITests.swift */; };
+		77F044DD1CDEFF2D00A8FB55 /* 交通案内.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 77F044DC1CDEFF2D00A8FB55 /* 交通案内.jpg */; };
+		77FBA8841CB0E1DE000C7ABD /* 茗溪　ロゴ.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 77FBA8831CB0E1DD000C7ABD /* 茗溪　ロゴ.jpg */; };
+		77FBA8881CB0E6D9000C7ABD /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FBA8871CB0E6D9000C7ABD /* StartViewController.swift */; };
+		77FBA88A1CB0E837000C7ABD /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FBA8891CB0E837000C7ABD /* SecondViewController.swift */; };
+		77FBA88C1CB0F130000C7ABD /* OptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FBA88B1CB0F130000C7ABD /* OptionViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		77EF7EBD1CAF8E9A0071347A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77EF7EA01CAF8E9A0071347A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77EF7EA71CAF8E9A0071347A;
+			remoteInfo = kojikenn;
+		};
+		77EF7EC81CAF8E9A0071347A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77EF7EA01CAF8E9A0071347A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77EF7EA71CAF8E9A0071347A;
+			remoteInfo = kojikenn;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		773924871D01B28E00531DFC /* UITableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewController.swift; sourceTree = "<group>"; };
+		77744B2F1CCA3EE600D4024A /* logo_meikeiのコピー.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo_meikeiのコピー.png"; sourceTree = "<group>"; };
+		77744B331CCA478C00D4024A /* mmd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mmd.png; path = ../mmd.png; sourceTree = "<group>"; };
+		77B2ECFB1CDEE84700665F95 /* AccessUIserchviewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccessUIserchviewController.swift; sourceTree = "<group>"; };
+		77EF7EA81CAF8E9A0071347A /* kojikenn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kojikenn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		77EF7EAB1CAF8E9A0071347A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		77EF7EAD1CAF8E9A0071347A /* QRCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeViewController.swift; sourceTree = "<group>"; };
+		77EF7EB01CAF8E9A0071347A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		77EF7EB21CAF8E9A0071347A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		77EF7EB51CAF8E9A0071347A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		77EF7EB71CAF8E9A0071347A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77EF7EBC1CAF8E9A0071347A /* kojikennTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kojikennTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		77EF7EC01CAF8E9A0071347A /* kojikennTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kojikennTests.swift; sourceTree = "<group>"; };
+		77EF7EC21CAF8E9A0071347A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77EF7EC71CAF8E9A0071347A /* kojikennUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kojikennUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		77EF7ECB1CAF8E9A0071347A /* kojikennUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kojikennUITests.swift; sourceTree = "<group>"; };
+		77EF7ECD1CAF8E9A0071347A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77F044DC1CDEFF2D00A8FB55 /* 交通案内.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "交通案内.jpg"; sourceTree = "<group>"; };
+		77FBA8831CB0E1DD000C7ABD /* 茗溪　ロゴ.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "茗溪　ロゴ.jpg"; sourceTree = "<group>"; };
+		77FBA8871CB0E6D9000C7ABD /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		77FBA8891CB0E837000C7ABD /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		77FBA88B1CB0F130000C7ABD /* OptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77EF7EA51CAF8E9A0071347A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77EF7EB91CAF8E9A0071347A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77EF7EC41CAF8E9A0071347A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		77EF7E9F1CAF8E9A0071347A = {
+			isa = PBXGroup;
+			children = (
+				77EF7EAA1CAF8E9A0071347A /* kojikenn */,
+				77EF7EBF1CAF8E9A0071347A /* kojikennTests */,
+				77EF7ECA1CAF8E9A0071347A /* kojikennUITests */,
+				77EF7EA91CAF8E9A0071347A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		77EF7EA91CAF8E9A0071347A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77EF7EA81CAF8E9A0071347A /* kojikenn.app */,
+				77EF7EBC1CAF8E9A0071347A /* kojikennTests.xctest */,
+				77EF7EC71CAF8E9A0071347A /* kojikennUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77EF7EAA1CAF8E9A0071347A /* kojikenn */ = {
+			isa = PBXGroup;
+			children = (
+				77EF7EAB1CAF8E9A0071347A /* AppDelegate.swift */,
+				77EF7EAD1CAF8E9A0071347A /* QRCodeViewController.swift */,
+				77FBA8871CB0E6D9000C7ABD /* StartViewController.swift */,
+				77FBA8891CB0E837000C7ABD /* SecondViewController.swift */,
+				77FBA88B1CB0F130000C7ABD /* OptionViewController.swift */,
+				77B2ECFB1CDEE84700665F95 /* AccessUIserchviewController.swift */,
+				773924871D01B28E00531DFC /* UITableViewController.swift */,
+				77EF7EAF1CAF8E9A0071347A /* Main.storyboard */,
+				77F044DC1CDEFF2D00A8FB55 /* 交通案内.jpg */,
+				77744B2F1CCA3EE600D4024A /* logo_meikeiのコピー.png */,
+				77744B331CCA478C00D4024A /* mmd.png */,
+				77FBA8831CB0E1DD000C7ABD /* 茗溪　ロゴ.jpg */,
+				77EF7EB21CAF8E9A0071347A /* Assets.xcassets */,
+				77EF7EB41CAF8E9A0071347A /* LaunchScreen.storyboard */,
+				77EF7EB71CAF8E9A0071347A /* Info.plist */,
+			);
+			path = kojikenn;
+			sourceTree = "<group>";
+		};
+		77EF7EBF1CAF8E9A0071347A /* kojikennTests */ = {
+			isa = PBXGroup;
+			children = (
+				77EF7EC01CAF8E9A0071347A /* kojikennTests.swift */,
+				77EF7EC21CAF8E9A0071347A /* Info.plist */,
+			);
+			path = kojikennTests;
+			sourceTree = "<group>";
+		};
+		77EF7ECA1CAF8E9A0071347A /* kojikennUITests */ = {
+			isa = PBXGroup;
+			children = (
+				77EF7ECB1CAF8E9A0071347A /* kojikennUITests.swift */,
+				77EF7ECD1CAF8E9A0071347A /* Info.plist */,
+			);
+			path = kojikennUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77EF7EA71CAF8E9A0071347A /* kojikenn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77EF7ED01CAF8E9A0071347A /* Build configuration list for PBXNativeTarget "kojikenn" */;
+			buildPhases = (
+				77EF7EA41CAF8E9A0071347A /* Sources */,
+				77EF7EA51CAF8E9A0071347A /* Frameworks */,
+				77EF7EA61CAF8E9A0071347A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kojikenn;
+			productName = kojikenn;
+			productReference = 77EF7EA81CAF8E9A0071347A /* kojikenn.app */;
+			productType = "com.apple.product-type.application";
+		};
+		77EF7EBB1CAF8E9A0071347A /* kojikennTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77EF7ED31CAF8E9A0071347A /* Build configuration list for PBXNativeTarget "kojikennTests" */;
+			buildPhases = (
+				77EF7EB81CAF8E9A0071347A /* Sources */,
+				77EF7EB91CAF8E9A0071347A /* Frameworks */,
+				77EF7EBA1CAF8E9A0071347A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77EF7EBE1CAF8E9A0071347A /* PBXTargetDependency */,
+			);
+			name = kojikennTests;
+			productName = kojikennTests;
+			productReference = 77EF7EBC1CAF8E9A0071347A /* kojikennTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		77EF7EC61CAF8E9A0071347A /* kojikennUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77EF7ED61CAF8E9A0071347A /* Build configuration list for PBXNativeTarget "kojikennUITests" */;
+			buildPhases = (
+				77EF7EC31CAF8E9A0071347A /* Sources */,
+				77EF7EC41CAF8E9A0071347A /* Frameworks */,
+				77EF7EC51CAF8E9A0071347A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77EF7EC91CAF8E9A0071347A /* PBXTargetDependency */,
+			);
+			name = kojikennUITests;
+			productName = kojikennUITests;
+			productReference = 77EF7EC71CAF8E9A0071347A /* kojikennUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77EF7EA01CAF8E9A0071347A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "norihiko tokoro";
+				TargetAttributes = {
+					77EF7EA71CAF8E9A0071347A = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					77EF7EBB1CAF8E9A0071347A = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 77EF7EA71CAF8E9A0071347A;
+					};
+					77EF7EC61CAF8E9A0071347A = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 77EF7EA71CAF8E9A0071347A;
+					};
+				};
+			};
+			buildConfigurationList = 77EF7EA31CAF8E9A0071347A /* Build configuration list for PBXProject "kojikenn" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 77EF7E9F1CAF8E9A0071347A;
+			productRefGroup = 77EF7EA91CAF8E9A0071347A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77EF7EA71CAF8E9A0071347A /* kojikenn */,
+				77EF7EBB1CAF8E9A0071347A /* kojikennTests */,
+				77EF7EC61CAF8E9A0071347A /* kojikennUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		77EF7EA61CAF8E9A0071347A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77744B341CCA478C00D4024A /* mmd.png in Resources */,
+				77EF7EB61CAF8E9A0071347A /* LaunchScreen.storyboard in Resources */,
+				77744B301CCA3EE600D4024A /* logo_meikeiのコピー.png in Resources */,
+				77EF7EB31CAF8E9A0071347A /* Assets.xcassets in Resources */,
+				77EF7EB11CAF8E9A0071347A /* Main.storyboard in Resources */,
+				77FBA8841CB0E1DE000C7ABD /* 茗溪　ロゴ.jpg in Resources */,
+				77F044DD1CDEFF2D00A8FB55 /* 交通案内.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77EF7EBA1CAF8E9A0071347A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77EF7EC51CAF8E9A0071347A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77EF7EA41CAF8E9A0071347A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				773924881D01B28E00531DFC /* UITableViewController.swift in Sources */,
+				77FBA88A1CB0E837000C7ABD /* SecondViewController.swift in Sources */,
+				77FBA88C1CB0F130000C7ABD /* OptionViewController.swift in Sources */,
+				77EF7EAE1CAF8E9A0071347A /* QRCodeViewController.swift in Sources */,
+				77EF7EAC1CAF8E9A0071347A /* AppDelegate.swift in Sources */,
+				77B2ECFC1CDEE84700665F95 /* AccessUIserchviewController.swift in Sources */,
+				77FBA8881CB0E6D9000C7ABD /* StartViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77EF7EB81CAF8E9A0071347A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77EF7EC11CAF8E9A0071347A /* kojikennTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77EF7EC31CAF8E9A0071347A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77EF7ECC1CAF8E9A0071347A /* kojikennUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		77EF7EBE1CAF8E9A0071347A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77EF7EA71CAF8E9A0071347A /* kojikenn */;
+			targetProxy = 77EF7EBD1CAF8E9A0071347A /* PBXContainerItemProxy */;
+		};
+		77EF7EC91CAF8E9A0071347A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77EF7EA71CAF8E9A0071347A /* kojikenn */;
+			targetProxy = 77EF7EC81CAF8E9A0071347A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		77EF7EAF1CAF8E9A0071347A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77EF7EB01CAF8E9A0071347A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		77EF7EB41CAF8E9A0071347A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77EF7EB51CAF8E9A0071347A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		77EF7ECE1CAF8E9A0071347A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		77EF7ECF1CAF8E9A0071347A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		77EF7ED11CAF8E9A0071347A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = kojikenn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "life-is-tech.kojikenn";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		77EF7ED21CAF8E9A0071347A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = kojikenn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "life-is-tech.kojikenn";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		77EF7ED41CAF8E9A0071347A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = kojikennTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "life-is-tech.kojikennTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kojikenn.app/kojikenn";
+			};
+			name = Debug;
+		};
+		77EF7ED51CAF8E9A0071347A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = kojikennTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "life-is-tech.kojikennTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kojikenn.app/kojikenn";
+			};
+			name = Release;
+		};
+		77EF7ED71CAF8E9A0071347A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = kojikennUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "life-is-tech.kojikennUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = kojikenn;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		77EF7ED81CAF8E9A0071347A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = kojikennUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "life-is-tech.kojikennUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = kojikenn;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77EF7EA31CAF8E9A0071347A /* Build configuration list for PBXProject "kojikenn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77EF7ECE1CAF8E9A0071347A /* Debug */,
+				77EF7ECF1CAF8E9A0071347A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77EF7ED01CAF8E9A0071347A /* Build configuration list for PBXNativeTarget "kojikenn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77EF7ED11CAF8E9A0071347A /* Debug */,
+				77EF7ED21CAF8E9A0071347A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77EF7ED31CAF8E9A0071347A /* Build configuration list for PBXNativeTarget "kojikennTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77EF7ED41CAF8E9A0071347A /* Debug */,
+				77EF7ED51CAF8E9A0071347A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77EF7ED61CAF8E9A0071347A /* Build configuration list for PBXNativeTarget "kojikennUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77EF7ED71CAF8E9A0071347A /* Debug */,
+				77EF7ED81CAF8E9A0071347A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 77EF7EA01CAF8E9A0071347A /* Project object */;
+}
