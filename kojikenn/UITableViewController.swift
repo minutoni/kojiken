@@ -68,5 +68,7 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         // 文字色
         //PlaceNameArray.textColor =  UIColor.whiteColor()
         
+        performSegueWithIdentifier("shousai", sender: nil)
+        
     }
 }

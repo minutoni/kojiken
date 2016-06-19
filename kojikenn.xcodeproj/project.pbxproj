@@ -10,7 +10,8 @@
 		773924881D01B28E00531DFC /* UITableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773924871D01B28E00531DFC /* UITableViewController.swift */; };
 		77744B301CCA3EE600D4024A /* logo_meikeiのコピー.png in Resources */ = {isa = PBXBuildFile; fileRef = 77744B2F1CCA3EE600D4024A /* logo_meikeiのコピー.png */; };
 		77744B341CCA478C00D4024A /* mmd.png in Resources */ = {isa = PBXBuildFile; fileRef = 77744B331CCA478C00D4024A /* mmd.png */; };
-		77B2ECFC1CDEE84700665F95 /* AccessUIserchviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B2ECFB1CDEE84700665F95 /* AccessUIserchviewController.swift */; };
+		77B2ECFC1CDEE84700665F95 /* AccessUIserchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B2ECFB1CDEE84700665F95 /* AccessUIserchViewController.swift */; };
+		77C50C491D16679D00A83F4D /* UITableViewSyousaiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C50C481D16679D00A83F4D /* UITableViewSyousaiViewController.swift */; };
 		77EF7EAC1CAF8E9A0071347A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77EF7EAB1CAF8E9A0071347A /* AppDelegate.swift */; };
 		77EF7EAE1CAF8E9A0071347A /* QRCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77EF7EAD1CAF8E9A0071347A /* QRCodeViewController.swift */; };
 		77EF7EB11CAF8E9A0071347A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77EF7EAF1CAF8E9A0071347A /* Main.storyboard */; };
@@ -46,7 +47,8 @@
 		773924871D01B28E00531DFC /* UITableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewController.swift; sourceTree = "<group>"; };
 		77744B2F1CCA3EE600D4024A /* logo_meikeiのコピー.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo_meikeiのコピー.png"; sourceTree = "<group>"; };
 		77744B331CCA478C00D4024A /* mmd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mmd.png; path = ../mmd.png; sourceTree = "<group>"; };
-		77B2ECFB1CDEE84700665F95 /* AccessUIserchviewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccessUIserchviewController.swift; sourceTree = "<group>"; };
+		77B2ECFB1CDEE84700665F95 /* AccessUIserchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccessUIserchViewController.swift; sourceTree = "<group>"; };
+		77C50C481D16679D00A83F4D /* UITableViewSyousaiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewSyousaiViewController.swift; sourceTree = "<group>"; };
 		77EF7EA81CAF8E9A0071347A /* kojikenn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kojikenn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77EF7EAB1CAF8E9A0071347A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		77EF7EAD1CAF8E9A0071347A /* QRCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeViewController.swift; sourceTree = "<group>"; };
@@ -120,8 +122,9 @@
 				77FBA8871CB0E6D9000C7ABD /* StartViewController.swift */,
 				77FBA8891CB0E837000C7ABD /* SecondViewController.swift */,
 				77FBA88B1CB0F130000C7ABD /* OptionViewController.swift */,
-				77B2ECFB1CDEE84700665F95 /* AccessUIserchviewController.swift */,
+				77B2ECFB1CDEE84700665F95 /* AccessUIserchViewController.swift */,
 				773924871D01B28E00531DFC /* UITableViewController.swift */,
+				77C50C481D16679D00A83F4D /* UITableViewSyousaiViewController.swift */,
 				77EF7EAF1CAF8E9A0071347A /* Main.storyboard */,
 				77F044DC1CDEFF2D00A8FB55 /* 交通案内.jpg */,
 				77744B2F1CCA3EE600D4024A /* logo_meikeiのコピー.png */,
@@ -292,7 +295,8 @@
 				77FBA88C1CB0F130000C7ABD /* OptionViewController.swift in Sources */,
 				77EF7EAE1CAF8E9A0071347A /* QRCodeViewController.swift in Sources */,
 				77EF7EAC1CAF8E9A0071347A /* AppDelegate.swift in Sources */,
-				77B2ECFC1CDEE84700665F95 /* AccessUIserchviewController.swift in Sources */,
+				77B2ECFC1CDEE84700665F95 /* AccessUIserchViewController.swift in Sources */,
+				77C50C491D16679D00A83F4D /* UITableViewSyousaiViewController.swift in Sources */,
 				77FBA8881CB0E6D9000C7ABD /* StartViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

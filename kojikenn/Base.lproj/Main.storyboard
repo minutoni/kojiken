@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
@@ -202,18 +202,15 @@ JR東京駅八重洲南口前から「つくばセンター」行きに乗ると
                                 <animations/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="Cell" rowHeight="57" id="6sX-RH-l3F">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="Cell" rowHeight="57" id="mD6-Xc-vhT">
                                         <rect key="frame" x="0.0" y="28" width="320" height="57"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="6sX-RH-l3F" id="dTE-F2-n6d">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="mD6-Xc-vhT" id="MCP-jR-nis">
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="56"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <animations/>
                                         </tableViewCellContentView>
                                         <animations/>
-                                        <connections>
-                                            <segue destination="6Iu-9z-MvA" kind="push" identifier="to syousai" id="fXg-Fu-MqC"/>
-                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -225,6 +222,7 @@ JR東京駅八重洲南口前から「つくばセンター」行きに乗ると
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <connections>
                         <outlet property="table" destination="mSB-9y-Qdd" id="ukO-V3-erC"/>
+                        <segue destination="6Iu-9z-MvA" kind="push" identifier="shousai" id="MgX-kU-fBW"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pTs-cq-DlD" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -282,10 +280,10 @@ JR東京駅八重洲南口前から「つくばセンター」行きに乗ると
             </objects>
             <point key="canvasLocation" x="1776" y="791"/>
         </scene>
-        <!--View Controller-->
+        <!--Table View Syousai View Controller-->
         <scene sceneID="jWd-gy-dxf">
             <objects>
-                <viewController id="6Iu-9z-MvA" sceneMemberID="viewController">
+                <viewController id="6Iu-9z-MvA" customClass="UITableViewSyousaiViewController" customModule="kojikenn" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="7Vt-79-JdK"/>
                         <viewControllerLayoutGuide type="bottom" id="1OC-bZ-OrL"/>
