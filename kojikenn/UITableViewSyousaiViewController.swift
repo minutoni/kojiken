@@ -18,7 +18,9 @@ class UITableViewSyousaiViewController: UIViewController, UITextFieldDelegate {
         super.viewDidLoad()
         
         SetsumeiArray = ["中学職員室","高校職員室","校長室","会議室","図書館","生徒会室","教務部室","保健室"]
-        setsumeiText.text = SetsumeiArray[index]
+        //setsumeiText.text = SetsumeiArray[index]
+        
+        //[index] = [
 
 
         // Do any additional setup after loading the view.

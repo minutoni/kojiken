@@ -25,7 +25,7 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         //UITableが持っているデリゲートメソッドの処理の委託先をViewController.swiftに設定
         table.delegate = self
         
-        //SongArrayに曲名を入れていく。
+        //PlaceArrayに曲名を入れていく。
         PlaceNameArray = ["中学職員室","高校職員室","校長室","会議室","図書館","生徒会室","教務部室","保健室"]
         
 

@@ -9,9 +9,19 @@
 import UIKit
 
 class BusTimePictureViewController: UIViewController {
-
+    
+    @IBOutlet var BusTimeImageView: UIImageView!
+    var selectedImg: UIImage!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        BusTimeImageView.image = selectedImg
+        // 画像のアスペクト比を維持しUIImageViewサイズに収まるように表示
+        BusTimeImageView.contentMode = UIViewContentMode.ScaleAspectFit
+        
+        //BusTimePicture.image = BusTimeImageArray[index]
 
         // Do any additional setup after loading the view.
     }
