@@ -94,6 +94,7 @@
 		774D2DE61D1E290C00CB21DB /* 6方面.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 774D2DE31D1E290C00CB21DB /* 6方面.jpg */; };
 		774D2DE91D1E292700CB21DB /* ひたち野うしく.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 774D2DE71D1E292700CB21DB /* ひたち野うしく.jpg */; };
 		774D2DEA1D1E292700CB21DB /* 研究学園.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 774D2DE81D1E292700CB21DB /* 研究学園.jpg */; };
+		775BC97D1D27608F0005B14F /* koutsuuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775BC97C1D27608F0005B14F /* koutsuuViewController.swift */; };
 		7765EF6A1D181A280097B835 /* BusTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7765EF691D181A280097B835 /* BusTimeViewController.swift */; };
 		77744B301CCA3EE600D4024A /* logo_meikeiのコピー.png in Resources */ = {isa = PBXBuildFile; fileRef = 77744B2F1CCA3EE600D4024A /* logo_meikeiのコピー.png */; };
 		77744B341CCA478C00D4024A /* mmd.png in Resources */ = {isa = PBXBuildFile; fileRef = 77744B331CCA478C00D4024A /* mmd.png */; };
@@ -218,6 +219,7 @@
 		774D2DE31D1E290C00CB21DB /* 6方面.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "6方面.jpg"; path = "../6方面.jpg"; sourceTree = "<group>"; };
 		774D2DE71D1E292700CB21DB /* ひたち野うしく.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "ひたち野うしく.jpg"; path = "../ひたち野うしく.jpg"; sourceTree = "<group>"; };
 		774D2DE81D1E292700CB21DB /* 研究学園.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "研究学園.jpg"; path = "../研究学園.jpg"; sourceTree = "<group>"; };
+		775BC97C1D27608F0005B14F /* koutsuuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = koutsuuViewController.swift; sourceTree = "<group>"; };
 		7765EF691D181A280097B835 /* BusTimeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusTimeViewController.swift; sourceTree = "<group>"; };
 		77744B2F1CCA3EE600D4024A /* logo_meikeiのコピー.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo_meikeiのコピー.png"; sourceTree = "<group>"; };
 		77744B331CCA478C00D4024A /* mmd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mmd.png; path = ../mmd.png; sourceTree = "<group>"; };
@@ -394,6 +396,7 @@
 				77C50C481D16679D00A83F4D /* UITableViewSyousaiViewController.swift */,
 				7765EF691D181A280097B835 /* BusTimeViewController.swift */,
 				774D2D341D1E1F5300CB21DB /* BusTimePictureViewController.swift */,
+				775BC97C1D27608F0005B14F /* koutsuuViewController.swift */,
 				77EF7EAF1CAF8E9A0071347A /* Main.storyboard */,
 				774D2D401D1E276C00CB21DB /* 見学用写真 */,
 				77F044DC1CDEFF2D00A8FB55 /* 交通案内.jpg */,
@@ -647,6 +650,7 @@
 			files = (
 				773924881D01B28E00531DFC /* UITableViewController.swift in Sources */,
 				77FBA88A1CB0E837000C7ABD /* SecondViewController.swift in Sources */,
+				775BC97D1D27608F0005B14F /* koutsuuViewController.swift in Sources */,
 				77FBA88C1CB0F130000C7ABD /* OptionViewController.swift in Sources */,
 				774D2D351D1E1F5300CB21DB /* BusTimePictureViewController.swift in Sources */,
 				77EF7EAE1CAF8E9A0071347A /* QRCodeViewController.swift in Sources */,

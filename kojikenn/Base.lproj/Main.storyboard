@@ -125,7 +125,7 @@
         <!--アクセスView Controller-->
         <scene sceneID="cYe-Qz-tRX">
             <objects>
-                <viewController id="7vW-L9-cUL" userLabel="アクセスView Controller" sceneMemberID="viewController">
+                <viewController id="7vW-L9-cUL" userLabel="アクセスView Controller" customClass="koutsuuViewController" customModule="kojikenn" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="1od-SP-xXW"/>
                         <viewControllerLayoutGuide type="bottom" id="Y1z-a7-aVJ"/>
@@ -167,11 +167,22 @@ JR東京駅八重洲南口前から「つくばセンター」行きに乗ると
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9yh-Ou-7RR">
+                                <rect key="frame" x="244" y="326" width="50" height="31"/>
+                                <animations/>
+                                <state key="normal" title="音声"/>
+                                <connections>
+                                    <action selector="didTapButton:" destination="7vW-L9-cUL" eventType="touchUpInside" id="XLN-gH-gMi"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="Qom-l0-rZQ"/>
+                    <connections>
+                        <outlet property="speechText" destination="Sru-ie-ZZL" id="TFJ-f3-QFg"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IUF-R8-tJL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
