@@ -15,6 +15,8 @@ class QRCodeViewController: UIViewController,AVCaptureMetadataOutputObjectsDeleg
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
+        
+        
         //セッションの作成。
         let mySession: AVCaptureSession! = AVCaptureSession ()
         

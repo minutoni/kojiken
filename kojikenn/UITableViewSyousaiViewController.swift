@@ -10,20 +10,34 @@ import UIKit
 
 class UITableViewSyousaiViewController: UIViewController, UITextFieldDelegate {
     
-    var SetsumeiArray = [String]()
+    @IBOutlet var TableSyousaiImageView: UIImageView!
+    var selectedImg: UIImage!
     
-    @IBOutlet var  setsumeiText: UITextField!
+    @IBOutlet var SetsumeiTextView: UITextView!
+    var selectedTextView : UITextView!
+    
+    
+    
+    //@IBOutlet var  setsumeiText: UITextField!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        SetsumeiArray = ["中学職員室","高校職員室","校長室","会議室","図書館","生徒会室","教務部室","保健室"]
+        TableSyousaiImageView.image = selectedImg
+        // 画像のアスペクト比を維持しUIImageViewサイズに収まるように表示
+        TableSyousaiImageView.contentMode = UIViewContentMode.ScaleAspectFit
+        
+        
+        
+        
         //setsumeiText.text = SetsumeiArray[index]
         
         //[index] = [
 
 
         // Do any additional setup after loading the view.
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
