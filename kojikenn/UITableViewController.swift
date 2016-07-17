@@ -46,7 +46,7 @@ class UITableViewController: UIViewController,UITableViewDataSource,UITableViewD
         table.delegate = self
         
         //結果表示用のビューコントローラーに自分を設定する。
-        //searchController.searchResultsUpdater = self
+        searchController.searchResultsUpdater = self
         
         //検索中にコンテンツをグレー表示にしない。
         searchController.dimsBackgroundDuringPresentation = false
@@ -82,7 +82,7 @@ class UITableViewController: UIViewController,UITableViewDataSource,UITableViewD
         
         cell.imageView?.image = UIImage(named: PlaceImageArray[indexPath.row])
         
-        //cell.textLabel?.text = UITextView(named: SetsumeiArray[indexPath.row])
+        cell.textLabel?.text = UITextView(named: SetsumeiArray[indexPath.row])
         
         //セルを取得する。
         let Cell = table.dequeueReusableCellWithIdentifier("Cell", forIndexPath:indexPath) as UITableViewCell
@@ -128,11 +128,11 @@ class UITableViewController: UIViewController,UITableViewDataSource,UITableViewD
             performSegueWithIdentifier("toSyousai", sender: nil)
         }
         
-        /*selectedText = UITextView(coder: NSCoder, "\(SetsumeiArray[indexPath.row])")
+        selectedText = UITextView(coder: NSCoder, "\(SetsumeiArray[indexPath.row])")
         if selectedText != nil {
             // SubViewController へ遷移するために Segue を呼び出す
             performSegueWithIdentifier("toSyousai", sender: nil)
-        }*/
+        }
         
         //文字位置
         //PlaceNameArray.textAlignment = NSTextAlignment.Center
@@ -165,7 +165,9 @@ class UITableViewController: UIViewController,UITableViewDataSource,UITableViewD
             super.didReceiveMemoryWarning()
             if (segue.identifier == "toSyousai") {
                 let subVC: BusTimePictureViewController = (segue.destinationViewController as? BusTimePictureViewController)!
-                // SubViewController のselectedImgに選択された画像を設定する
+                 //SubViewController のselectedImgに選択された画像を設定する
                 subVC.selectedImg = selectedImage
+}
+}
 */
 }
