@@ -27,10 +27,12 @@ class UITableViewSyousaiViewController: UIViewController, UITextFieldDelegate {
         // 画像のアスペクト比を維持しUIImageViewサイズに収まるように表示
         TableSyousaiImageView.contentMode = UIViewContentMode.ScaleAspectFit
         
+        SetsumeiTextView.text = selectedTextView?.text
         
         
         
-        //setsumeiText.text = SetsumeiArray[index]
+        
+        setsumeiText.text = SetsumeiArray[index]
         
         //[index] = [
 

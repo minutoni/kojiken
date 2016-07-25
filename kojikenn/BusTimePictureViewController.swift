@@ -19,7 +19,7 @@ class BusTimePictureViewController: UIViewController {
         
         BusTimeImageView.image = selectedImg
         // 画像のアスペクト比を維持しUIImageViewサイズに収まるように表示
-        BusTimeImageView.contentMode = UIViewContentMode.ScaleAspectFit
+        //BusTimeImageView.contentMode = UIViewContentMode.ScaleAspectFit
         
         //BusTimePicture.image = BusTimeImageArray[index]
 
