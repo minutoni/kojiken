@@ -15,6 +15,8 @@ class koutsuuViewController: UIViewController {
     @IBOutlet weak var speechText: UITextView!
     /** SpeechSynthesizerクラス */
     var talker = AVSpeechSynthesizer()
+    
+    var isSpeaking = false
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,14 +30,29 @@ class koutsuuViewController: UIViewController {
     }
     
     /** ボタンが押された時の処理 */
-    @IBAction func didTapButton(sender: UIButton)
-    {
-        // 話す内容をセット
-        let utterance = AVSpeechUtterance(string:self.speechText.text!)
-        // 言語を日本に設定
-        utterance.voice = AVSpeechSynthesisVoice(language: "ja-JP")
-        // 実行
-        self.talker.speakUtterance(utterance)
+    @IBAction func didTapButton(sender: UIButton){
+        
+        
+        if (isSpeaking == false) {
+            
+            // 話す内容をセット
+            let utterance = AVSpeechUtterance(string:self.speechText.text!)
+            // 言語を日本に設定
+            utterance.voice = AVSpeechSynthesisVoice(language: "ja-JP")
+            // 実行
+            self.talker.speakUtterance(utterance)
+            
+            isSpeaking = true
+        }else{
+            // 読み上げを途中で終了する（終了したところからまた再生したい場合は下のpauseを使う）
+            talker.stopSpeakingAtBoundary(AVSpeechBoundary.Immediate)
+            isSpeaking = false
+        }
+    }
+    
+    override func viewDidDisappear(animated: Bool) {
+        // 読み上げを途中で終了する（終了したところからまた再生したい場合は下のpauseを使う）
+        talker.stopSpeakingAtBoundary(AVSpeechBoundary.Immediate)
     }
     
 

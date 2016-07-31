@@ -80,6 +80,13 @@ class BusTimeViewController: UIViewController,UITableViewDataSource,UITableViewD
         
     }
             
+
+            
+            
+            
+            
+            
+            
            func didReceiveMemoryWarning() {
                 super.didReceiveMemoryWarning()
                 if (segue.identifier == "toBusTime") {

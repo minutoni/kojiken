@@ -10,10 +10,27 @@ import UIKit
 import AVFoundation
 
 class QRCodeViewController: UIViewController,AVCaptureMetadataOutputObjectsDelegate{
+    
+    
+    //Array
+    var PlaceSetsumeiArray = [String]()
+    
+    var PlaceImageArray = [String]()
+    
+    var index = 0
+    var isQR = true
+    
+    var isFirst = true
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        
+        //Arrayの中身
+        PlaceSetsumeiArray = ["第一体育館の説明","第二体育館の説明","プール","ラグビー場","剣道場","柔道場","トレーナー室","中庭","屋上","相談室","保健室","購買部","セミナー室A・B","コモンスペース","１０１教室","第三美術室","第二美術室","第一美術室",]
+        
+        PlaceImageArray = ["第一体育館-6.JPG","第二体育館.JPG","プール.JPG","ラグビー場.JPG","剣道場.JPG","柔道場.JPG","","中庭.JPG","無線斑の電波塔.JPG","","保健室.JPG","購買部.JPG","セミナー室.JPG","","101教室.JPG","第三美術室.JPG","第二美術室.JPG","第一美術室.JPG",]
         
         
         
@@ -71,14 +88,34 @@ class QRCodeViewController: UIViewController,AVCaptureMetadataOutputObjectsDeleg
     // Meta情報を検出際に呼ばれるdelegate.
     func captureOutput(captureOutput: AVCaptureOutput!, didOutputMetadataObjects metadataObjects: [AnyObject]!, fromConnection connection: AVCaptureConnection!) {
         if metadataObjects.count > 0 {
-            let qrData: AVMetadataMachineReadableCodeObject  = metadataObjects[0] as! AVMetadataMachineReadableCodeObject
-            print("\(qrData.type)")
-            print("\(qrData.stringValue)")
+            if isFirst == true{
+                let qrData: AVMetadataMachineReadableCodeObject  = metadataObjects[0] as! AVMetadataMachineReadableCodeObject
+                print("\(qrData.type)")
+                print("\(qrData.stringValue)")
+                
+                //SafariでURLを表示（ここを変える！）
+                
+                
+                
+                //            UIApplication.sharedApplication().openURL(NSURL(string: qrData.stringValue)!)
+                index = Int(qrData.stringValue)!
+                
+                // SubViewController へ遷移するために Segue を呼び出す
+                performSegueWithIdentifier("toSyousaiQR", sender: nil)
+                isFirst = false
+            }
             
-            //SafariでURLを表示（ここを変える！）
+        }
+    }
+    // Segue 準備
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject!) {
+        if (segue.identifier == "toSyousaiQR") {
+            let subVC: UITableViewSyousaiViewController = (segue.destinationViewController as? UITableViewSyousaiViewController)!
+            // SubViewController のselectedImgに選択された画像を設定する
+            subVC.selectedImg = UIImage(named:PlaceImageArray[index])
             
-            UIApplication.sharedApplication().openURL(NSURL(string: qrData.stringValue)!)
-    
+            subVC.selectedStr  = PlaceSetsumeiArray[index]
+            subVC.isQR = self.isQR
         }
     }
 
