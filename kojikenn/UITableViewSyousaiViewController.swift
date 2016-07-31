@@ -45,9 +45,16 @@ class UITableViewSyousaiViewController: UIViewController, UITextFieldDelegate {
             //let addBtn = UIBarButtonItem(barButtonSystemItem: .Done, target: self, action: "twoBack")
             let addBtn = UIBarButtonItem(title: "Back", style: .Plain, target: self, action: "twoBack")
             self.navigationItem.leftBarButtonItem = addBtn
+            
+            TableSyousaiImageView.userInteractionEnabled = true
+            
+            
+            
            
 
         }
+        
+        
         
         TableSyousaiImageView.image = selectedImg
         // 画像のアスペクト比を維持しUIImageViewサイズに収まるように表示
@@ -60,6 +67,16 @@ class UITableViewSyousaiViewController: UIViewController, UITextFieldDelegate {
         SetsumeiTextView.text = selectedStr
 
         
+        
+        // パン認識.
+        let myPan = UIPanGestureRecognizer(target: self, action: "panGesture:")
+        self.TableSyousaiImageView.addGestureRecognizer(myPan)
+        
+        
+        // ピンチを認識.
+        let myPinchGesture = UIPinchGestureRecognizer(target: self, action: "pinchGesture:")
+        
+        self.TableSyousaiImageView.addGestureRecognizer(myPinchGesture)
         
         
 
@@ -108,6 +125,35 @@ class UITableViewSyousaiViewController: UIViewController, UITextFieldDelegate {
     override func viewDidDisappear(animated: Bool) {
         // 読み上げを途中で終了する（終了したところからまた再生したい場合は下のpauseを使う）
         talker.stopSpeakingAtBoundary(AVSpeechBoundary.Immediate)
+    }
+    
+    
+    
+    
+    // ピンチジェスチャー
+    func pinchGesture(gesture:UIPinchGestureRecognizer){
+        
+        let scale = gesture.scale
+        TableSyousaiImageView.transform = CGAffineTransformMakeScale(scale, scale)
+        
+    }
+    
+    
+    //パンジェスチャー
+    func panGesture(gesture: UIPanGestureRecognizer){
+        
+        //移動量を取得する。
+        let move:CGPoint = gesture.translationInView(view)
+        
+        //ドラッグした部品の座標に移動量を加算する。
+        gesture.view!.center.x += move.x
+        gesture.view!.center.y += move.y
+        
+        //ラベルに現在座標を表示する。
+        //testLabel.text = "\(sender.view!.frame.origin.x), \(sender.view!.frame.origin.y)"
+        
+        //移動量を0にする。
+        gesture.setTranslation(CGPointZero, inView:view)
     }
     
 
