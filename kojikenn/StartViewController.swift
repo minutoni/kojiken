@@ -14,9 +14,13 @@ class StartViewController: UIViewController {
     @IBOutlet weak var blinkView2: UIView!
     @IBOutlet weak var blinkView3: UIView!
     
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        
         
         //点滅アニメーション
         /*UIView.animateWithDuration(1.0, delay: 0.0,
