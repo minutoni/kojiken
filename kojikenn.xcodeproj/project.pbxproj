@@ -157,6 +157,8 @@
 		77845B191D5B2A24003C60D5 /* 音楽室2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 77845B121D5B2A24003C60D5 /* 音楽室2.JPG */; };
 		77845B1B1D5B2C09003C60D5 /* トレーナ室.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 77845B1A1D5B2C09003C60D5 /* トレーナ室.JPG */; };
 		77845B1D1D5B2C59003C60D5 /* 相談.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 77845B1C1D5B2C59003C60D5 /* 相談.JPG */; };
+		7785B46B1D6D9B95000FD944 /* android-chrome-192x192.png in Resources */ = {isa = PBXBuildFile; fileRef = 7785B46A1D6D9B95000FD944 /* android-chrome-192x192.png */; };
+		7789AC421D6FD2D800CACFC5 /* QRcode-第一体育館.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7789AC411D6FD2D800CACFC5 /* QRcode-第一体育館.jpg */; };
 		77B276F91D4C9A3C0010EF44 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 77B276F41D4C9A3C0010EF44 /* Default-568h@2x.png */; };
 		77B276FA1D4C9A3C0010EF44 /* Default-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 77B276F51D4C9A3C0010EF44 /* Default-667h@2x.png */; };
 		77B276FB1D4C9A3C0010EF44 /* Default-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 77B276F61D4C9A3C0010EF44 /* Default-736h@3x.png */; };
@@ -346,6 +348,8 @@
 		77845B121D5B2A24003C60D5 /* 音楽室2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "音楽室2.JPG"; sourceTree = "<group>"; };
 		77845B1A1D5B2C09003C60D5 /* トレーナ室.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "トレーナ室.JPG"; sourceTree = "<group>"; };
 		77845B1C1D5B2C59003C60D5 /* 相談.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "相談.JPG"; sourceTree = "<group>"; };
+		7785B46A1D6D9B95000FD944 /* android-chrome-192x192.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "android-chrome-192x192.png"; sourceTree = "<group>"; };
+		7789AC411D6FD2D800CACFC5 /* QRcode-第一体育館.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "QRcode-第一体育館.jpg"; sourceTree = "<group>"; };
 		77B276F41D4C9A3C0010EF44 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		77B276F51D4C9A3C0010EF44 /* Default-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-667h@2x.png"; sourceTree = "<group>"; };
 		77B276F61D4C9A3C0010EF44 /* Default-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-736h@3x.png"; sourceTree = "<group>"; };
@@ -591,6 +595,8 @@
 				774D2D341D1E1F5300CB21DB /* BusTimePictureViewController.swift */,
 				775BC97C1D27608F0005B14F /* koutsuuViewController.swift */,
 				77EF7EAF1CAF8E9A0071347A /* Main.storyboard */,
+				7789AC411D6FD2D800CACFC5 /* QRcode-第一体育館.jpg */,
+				7785B46A1D6D9B95000FD944 /* android-chrome-192x192.png */,
 				7737B5B71D289DB000E36C3E /* 見学用写真 */,
 				77F044DC1CDEFF2D00A8FB55 /* 交通案内.jpg */,
 				7714D2BC1D573E9F00CF348D /* icon_002751_256.jpg */,
@@ -793,6 +799,7 @@
 				7737B6401D289DB100E36C3E /* トレーナー室.JPG in Resources */,
 				7737B6A31D289DB100E36C3E /* CIMG4078.JPG in Resources */,
 				7737B67E1D289DB100E36C3E /* CIMG4039.JPG in Resources */,
+				7789AC421D6FD2D800CACFC5 /* QRcode-第一体育館.jpg in Resources */,
 				77EF7EB11CAF8E9A0071347A /* Main.storyboard in Resources */,
 				7708CEF01D4E1F2B00B2FE94 /* CIMG4206.JPG in Resources */,
 				7737B65D1D289DB100E36C3E /* 図書室.JPG in Resources */,
@@ -826,6 +833,7 @@
 				7737B6A71D289DB100E36C3E /* CIMG4082.JPG in Resources */,
 				7737B68B1D289DB100E36C3E /* CIMG4054.JPG in Resources */,
 				7737B64C1D289DB100E36C3E /* 陶芸.JPG in Resources */,
+				7785B46B1D6D9B95000FD944 /* android-chrome-192x192.png in Resources */,
 				7737B6AD1D289DB100E36C3E /* 無線斑の電波塔.JPG in Resources */,
 				7737B6A01D289DB100E36C3E /* CIMG4075.JPG in Resources */,
 				7737B6881D289DB100E36C3E /* 高校等前.JPG in Resources */,
@@ -1062,13 +1070,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: toni minu (8Q46758X4P)";
 				INFOPLIST_FILE = kojikenn/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "life-is-tech.kojikenn";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "425ba4a0-11e2-4750-a8ff-4e25b5296124";
 			};
 			name = Debug;
 		};
@@ -1076,13 +1083,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: toni minu (8Q46758X4P)";
 				INFOPLIST_FILE = kojikenn/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "life-is-tech.kojikenn";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "425ba4a0-11e2-4750-a8ff-4e25b5296124";
 			};
 			name = Release;
 		};

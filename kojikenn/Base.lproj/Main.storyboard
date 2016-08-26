@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
         <!--Start View Controller-->
@@ -19,7 +19,6 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ygk-R6-bJG">
                                 <rect key="frame" x="108" y="401" width="105" height="100"/>
-                                <animations/>
                                 <color key="backgroundColor" red="0.0" green="0.92553683151034916" blue="1" alpha="0.0" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="29"/>
                                 <state key="normal" title="Tap" backgroundImage="c7f06ee3.jpg">
@@ -30,20 +29,14 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo_meikeiのコピー.png" translatesAutoresizingMaskIntoConstraints="NO" id="MCC-mS-Ibx">
-                                <rect key="frame" x="10" y="86" width="300" height="63"/>
-                                <animations/>
+                                <rect key="frame" x="10" y="79" width="300" height="63"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="茗溪　ロゴ.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Zg0-gw-jLz">
-                                <rect key="frame" x="86" y="191" width="149" height="124"/>
-                                <animations/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="android-chrome-192x192.png" translatesAutoresizingMaskIntoConstraints="NO" id="Xfv-Wr-rXd">
+                                <rect key="frame" x="22" y="157" width="277" height="254"/>
                             </imageView>
                         </subviews>
-                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <connections>
-                        <outlet property="blinkView3" destination="Zg0-gw-jLz" id="Xpu-7u-W0A"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -62,8 +55,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wFN-GB-bhl">
-                                <rect key="frame" x="37" y="161" width="246" height="64"/>
-                                <animations/>
+                                <rect key="frame" x="29" y="196" width="263" height="72"/>
                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="25"/>
                                 <state key="normal" title="校内案内" backgroundImage="スクリーンショット 2016-08-07 18.34.53.png">
@@ -73,13 +65,8 @@
                                     <segue destination="QWl-u1-Y2s" kind="push" identifier="to kounaiannnai" id="glJ-U2-6vg"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mmd.png" translatesAutoresizingMaskIntoConstraints="NO" id="RmF-d6-Kue">
-                                <rect key="frame" x="20" y="48" width="280" height="121"/>
-                                <animations/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3aa-Oh-M2o">
-                                <rect key="frame" x="37" y="239" width="246" height="64"/>
-                                <animations/>
+                                <rect key="frame" x="29" y="296" width="263" height="72"/>
                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="25"/>
                                 <state key="normal" title="アクセス" backgroundImage="スクリーンショット 2016-08-07 18.34.53.png">
@@ -89,25 +76,8 @@
                                     <segue destination="7vW-L9-cUL" kind="push" id="dou-sx-v0f"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9h3-ud-xrN">
-                                <rect key="frame" x="247" y="536" width="36" height="33"/>
-                                <animations/>
-                                <state key="normal" backgroundImage="icon_027123_256.jpg"/>
-                                <connections>
-                                    <segue destination="JQ0-F4-AE7" kind="modal" id="80N-Nm-qBJ"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UHx-mQ-7XA">
-                                <rect key="frame" x="285" y="535" width="35" height="34"/>
-                                <animations/>
-                                <state key="normal" backgroundImage="icon_002751_256.jpg"/>
-                                <connections>
-                                    <segue destination="GG0-Rj-1yo" kind="modal" id="mA6-v9-OVp"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bbf-rQ-Rh4">
-                                <rect key="frame" x="37" y="323" width="246" height="64"/>
-                                <animations/>
+                                <rect key="frame" x="29" y="396" width="263" height="72"/>
                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="25"/>
                                 <state key="normal" title="バス時刻表" backgroundImage="スクリーンショット 2016-08-07 18.34.53.png">
@@ -117,8 +87,10 @@
                                     <segue destination="rvx-h4-ABv" kind="push" id="ZLy-gY-sem"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mmd.png" translatesAutoresizingMaskIntoConstraints="NO" id="RmF-d6-Kue">
+                                <rect key="frame" x="20" y="64" width="280" height="121"/>
+                            </imageView>
                         </subviews>
-                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="sNC-5Q-hql"/>
@@ -141,11 +113,9 @@
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="交通案内.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="6OV-G6-o8Q">
                                 <rect key="frame" x="20" y="64" width="280" height="198"/>
-                                <animations/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Syk-iv-96b">
                                 <rect key="frame" x="44" y="261" width="232" height="80"/>
-                                <animations/>
                                 <string key="text">〒305-8502 茨城県つくば市稲荷前1-1
 TEL.029-851-6611　　　　　　　　FAX.029-851-5455　　　</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
@@ -153,8 +123,7 @@ TEL.029-851-6611　　　　　　　　FAX.029-851-5455　　　</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Sru-ie-ZZL">
-                                <rect key="frame" x="20" y="334" width="280" height="484"/>
-                                <animations/>
+                                <rect key="frame" x="20" y="334" width="280" height="234"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">公共交通
 
@@ -169,12 +138,11 @@ JR上野駅から常磐線で１時間、ひたち野うしく駅で下車し、
 東京駅から（高速バス利用）
 
 JR東京駅八重洲南口前から「つくばセンター」行きに乗ると、常磐高速道路を経て約６０分、終点の「つくばセンター」（TXつくば駅、TXセンタービルバス停）から、タクシーで約１０分で茗溪学園に着きます。</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9yh-Ou-7RR">
                                 <rect key="frame" x="245" y="293" width="55" height="54"/>
-                                <animations/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
                                 <state key="normal" title="Siri" backgroundImage="c7f06ee3.jpg">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -184,7 +152,6 @@ JR東京駅八重洲南口前から「つくばセンター」行きに乗ると
                                 </connections>
                             </button>
                         </subviews>
-                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="3mw-rQ-ohc"/>
@@ -209,14 +176,23 @@ JR東京駅八重洲南口前から「つくばセンター」行きに乗ると
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ntE-ip-zh5">
+                                <rect key="frame" x="271" y="519" width="49" height="49"/>
+                                <color key="backgroundColor" red="0.52687044589946064" green="0.51682768460557904" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
+                                <state key="normal" backgroundImage="QRcode-第一体育館.jpg">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="QRCodeButton" destination="QWl-u1-Y2s" eventType="touchUpInside" id="YTu-j5-8lH"/>
+                                </connections>
+                            </button>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="57" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="mSB-9y-Qdd">
                                 <rect key="frame" x="0.0" y="64" width="320" height="453"/>
-                                <animations/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <searchBar key="tableHeaderView" contentMode="redraw" id="waZ-Eg-IB2">
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    <animations/>
                                     <gestureRecognizers/>
                                     <textInputTraits key="textInputTraits"/>
                                     <connections>
@@ -230,25 +206,11 @@ JR東京駅八重洲南口前から「つくばセンター」行きに乗ると
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="mD6-Xc-vhT" id="MCP-jR-nis">
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="56"/>
                                             <autoresizingMask key="autoresizingMask"/>
-                                            <animations/>
                                         </tableViewCellContentView>
-                                        <animations/>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ntE-ip-zh5">
-                                <rect key="frame" x="177" y="523" width="143" height="45"/>
-                                <animations/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
-                                <state key="normal" title="QRCodebutton" backgroundImage="スクリーンショット 2016-08-07 18.34.53.png">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="QRCodeButton" destination="QWl-u1-Y2s" eventType="touchUpInside" id="YTu-j5-8lH"/>
-                                </connections>
-                            </button>
                         </subviews>
-                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="Kne-QW-5gd"/>
@@ -279,10 +241,8 @@ JR東京駅八重洲南口前から「つくばセンター」行きに乗ると
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EN1-KS-G67">
                                 <rect key="frame" x="0.0" y="64" width="320" height="504"/>
-                                <animations/>
                             </imageView>
                         </subviews>
-                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="9Nq-7G-Ab8"/>
@@ -308,7 +268,6 @@ JR東京駅八重洲南口前から「つくばセンター」行きに乗ると
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="48" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ZlS-2t-Wwo">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
-                                <animations/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="48" id="enR-rV-bwq">
@@ -317,14 +276,11 @@ JR東京駅八重洲南口前から「つくばセンター」行きに乗ると
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="enR-rV-bwq" id="hYK-ax-HmZ">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="47"/>
                                             <autoresizingMask key="autoresizingMask"/>
-                                            <animations/>
                                         </tableViewCellContentView>
-                                        <animations/>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
                         </subviews>
-                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="Zv2-34-irs"/>
@@ -352,11 +308,9 @@ JR東京駅八重洲南口前から「つくばセンター」行きに乗ると
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2dF-kO-An2">
                                 <rect key="frame" x="0.0" y="64" width="320" height="200"/>
-                                <animations/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2NX-tb-ran">
                                 <rect key="frame" x="264" y="272" width="56" height="50"/>
-                                <animations/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
                                 <state key="normal" title="Siri" backgroundImage="c7f06ee3.jpg">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -366,15 +320,13 @@ JR東京駅八重洲南口前から「つくばセンター」行きに乗ると
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="px8-dt-ZMu">
-                                <rect key="frame" x="20" y="318" width="280" height="272"/>
-                                <animations/>
+                                <rect key="frame" x="20" y="318" width="280" height="250"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
-                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="JMd-HP-5p0"/>
@@ -400,7 +352,6 @@ JR東京駅八重洲南口前から「つくばセンター」行きに乗ると
                     <view key="view" contentMode="scaleToFill" id="aZ4-X6-jQd">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="hVS-13-Zjf"/>
@@ -426,13 +377,11 @@ JR東京駅八重洲南口前から「つくばセンター」行きに乗ると
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="設定" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iNK-zg-jeh">
                                 <rect key="frame" x="109" y="72" width="102" height="51"/>
-                                <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="F1y-AI-TOH"/>
@@ -452,7 +401,6 @@ JR東京駅八重洲南口前から「つくばセンター」行きに乗ると
                     <view key="view" contentMode="scaleToFill" id="eun-1J-nj6">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="27L-b5-DaX"/>
@@ -469,7 +417,6 @@ JR東京駅八重洲南口前から「つくばセンター」行きに乗ると
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="djM-uJ-aCh">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <animations/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -482,14 +429,13 @@ JR東京駅八重洲南口前から「つくばセンター」行きに乗ると
         </scene>
     </scenes>
     <resources>
+        <image name="QRcode-第一体育館.jpg" width="116" height="116"/>
+        <image name="android-chrome-192x192.png" width="192" height="192"/>
         <image name="c7f06ee3.jpg" width="500" height="500"/>
-        <image name="icon_002751_256.jpg" width="256" height="256"/>
-        <image name="icon_027123_256.jpg" width="256" height="256"/>
         <image name="logo_meikeiのコピー.png" width="375" height="66"/>
         <image name="mmd.png" width="980" height="406"/>
         <image name="スクリーンショット 2016-08-07 18.34.53.png" width="221" height="64"/>
         <image name="交通案内.jpg" width="680" height="567"/>
-        <image name="茗溪　ロゴ.jpg" width="91" height="83"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="xLG-eF-5C1"/>
