@@ -7,13 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7708CEEC1D4E1F2B00B2FE94 /* CIMG4202.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7708CEE51D4E1F2B00B2FE94 /* CIMG4202.JPG */; };
 		7708CEED1D4E1F2B00B2FE94 /* 寮.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7708CEE61D4E1F2B00B2FE94 /* 寮.JPG */; };
-		7708CEEE1D4E1F2B00B2FE94 /* CIMG4204.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7708CEE71D4E1F2B00B2FE94 /* CIMG4204.JPG */; };
 		7708CEEF1D4E1F2B00B2FE94 /* 寮門前.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7708CEE81D4E1F2B00B2FE94 /* 寮門前.JPG */; };
-		7708CEF01D4E1F2B00B2FE94 /* CIMG4206.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7708CEE91D4E1F2B00B2FE94 /* CIMG4206.JPG */; };
 		7708CEF11D4E1F2B00B2FE94 /* 食堂前.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7708CEEA1D4E1F2B00B2FE94 /* 食堂前.JPG */; };
-		7708CEF21D4E1F2B00B2FE94 /* CIMG4208.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7708CEEB1D4E1F2B00B2FE94 /* CIMG4208.JPG */; };
 		7708CEF41D4E2DBA00B2FE94 /* コモンスペース1.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7708CEF31D4E2DBA00B2FE94 /* コモンスペース1.JPG */; };
 		7714D2B71D5730B000CF348D /* c7f06ee3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7714D2B61D5730B000CF348D /* c7f06ee3.jpg */; };
 		7714D2B91D57385500CF348D /* スクリーンショット 2016-08-07 18.34.53.png in Resources */ = {isa = PBXBuildFile; fileRef = 7714D2B81D57385500CF348D /* スクリーンショット 2016-08-07 18.34.53.png */; };
@@ -22,124 +18,32 @@
 		7737B6341D289DB100E36C3E /* 6方面-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7737B5B81D289DB000E36C3E /* 6方面-2.jpg */; };
 		7737B6351D289DB100E36C3E /* 6方面-3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7737B5B91D289DB000E36C3E /* 6方面-3.jpg */; };
 		7737B6361D289DB100E36C3E /* 6方面.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7737B5BA1D289DB000E36C3E /* 6方面.jpg */; };
-		7737B6371D289DB100E36C3E /* 第一体育館.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B5BB1D289DB000E36C3E /* 第一体育館.JPG */; };
-		7737B6381D289DB100E36C3E /* 第一体育館-2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B5BC1D289DB000E36C3E /* 第一体育館-2.JPG */; };
-		7737B6391D289DB100E36C3E /* 第一体育館-3.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B5BD1D289DB000E36C3E /* 第一体育館-3.JPG */; };
-		7737B63A1D289DB100E36C3E /* 第一体育館-４.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B5BE1D289DB000E36C3E /* 第一体育館-４.JPG */; };
-		7737B63B1D289DB100E36C3E /* 第一体育館-５.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B5BF1D289DB000E36C3E /* 第一体育館-５.JPG */; };
-		7737B63C1D289DB100E36C3E /* ピット.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B5C01D289DB000E36C3E /* ピット.JPG */; };
 		7737B63D1D289DB100E36C3E /* 第二体育館.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B5C11D289DB000E36C3E /* 第二体育館.JPG */; };
-		7737B63E1D289DB100E36C3E /* 第二体育館-2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B5C21D289DB000E36C3E /* 第二体育館-2.JPG */; };
-		7737B63F1D289DB100E36C3E /* 第二体育館-3.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B5C31D289DB000E36C3E /* 第二体育館-3.JPG */; };
-		7737B6401D289DB100E36C3E /* トレーナー室.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B5C41D289DB000E36C3E /* トレーナー室.JPG */; };
-		7737B6411D289DB100E36C3E /* ショーケース.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B5C51D289DB000E36C3E /* ショーケース.JPG */; };
-		7737B6421D289DB100E36C3E /* ショーケース.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B5C61D289DB000E36C3E /* ショーケース.JPG */; };
-		7737B6431D289DB100E36C3E /* 電気釜.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B5C71D289DB000E36C3E /* 電気釜.JPG */; };
-		7737B6441D289DB100E36C3E /* 電気釜.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B5C81D289DB000E36C3E /* 電気釜.JPG */; };
 		7737B6451D289DB100E36C3E /* 第二美術室.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B5C91D289DB000E36C3E /* 第二美術室.JPG */; };
-		7737B6461D289DB100E36C3E /* コモンスペース１.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B5CA1D289DB000E36C3E /* コモンスペース１.JPG */; };
-		7737B6471D289DB100E36C3E /* コモンスペース.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B5CB1D289DB000E36C3E /* コモンスペース.JPG */; };
 		7737B6481D289DB100E36C3E /* コモンスペース２.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B5CC1D289DB000E36C3E /* コモンスペース２.JPG */; };
-		7737B6491D289DB100E36C3E /* コモンスペース２-2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B5CD1D289DB000E36C3E /* コモンスペース２-2.JPG */; };
-		7737B64A1D289DB100E36C3E /* CIMG3987.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B5CE1D289DB000E36C3E /* CIMG3987.JPG */; };
 		7737B64B1D289DB100E36C3E /* 高校職員室前.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B5CF1D289DB000E36C3E /* 高校職員室前.JPG */; };
-		7737B64C1D289DB100E36C3E /* 陶芸.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B5D01D289DB000E36C3E /* 陶芸.JPG */; };
-		7737B64D1D289DB100E36C3E /* 陶芸-2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B5D11D289DB000E36C3E /* 陶芸-2.JPG */; };
-		7737B64E1D289DB100E36C3E /* 陶芸-3.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B5D21D289DB000E36C3E /* 陶芸-3.JPG */; };
-		7737B64F1D289DB100E36C3E /* 巻物.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B5D31D289DB000E36C3E /* 巻物.JPG */; };
-		7737B6501D289DB100E36C3E /* 二人の天使.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B5D41D289DB000E36C3E /* 二人の天使.JPG */; };
-		7737B6511D289DB100E36C3E /* 二人の天使-2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B5D51D289DB000E36C3E /* 二人の天使-2.JPG */; };
-		7737B6521D289DB100E36C3E /* トイレ.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B5D61D289DB000E36C3E /* トイレ.JPG */; };
-		7737B6531D289DB100E36C3E /* トイレ中.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B5D71D289DB000E36C3E /* トイレ中.JPG */; };
 		7737B6541D289DB100E36C3E /* 生物実験室.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B5D81D289DB000E36C3E /* 生物実験室.JPG */; };
-		7737B6551D289DB100E36C3E /* 顕微鏡.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B5D91D289DB000E36C3E /* 顕微鏡.JPG */; };
-		7737B6561D289DB100E36C3E /* シラバス.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B5DA1D289DB000E36C3E /* シラバス.JPG */; };
-		7737B6571D289DB100E36C3E /* 個人研.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B5DB1D289DB000E36C3E /* 個人研.JPG */; };
-		7737B6581D289DB100E36C3E /* 個人研.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B5DC1D289DB000E36C3E /* 個人研.JPG */; };
 		7737B6591D289DB100E36C3E /* 進路資料室.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B5DD1D289DB000E36C3E /* 進路資料室.JPG */; };
 		7737B65A1D289DB100E36C3E /* 大教室前絵画.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B5DE1D289DB000E36C3E /* 大教室前絵画.JPG */; };
-		7737B65B1D289DB100E36C3E /* 大教室前絵画.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B5DF1D289DB000E36C3E /* 大教室前絵画.JPG */; };
-		7737B65C1D289DB100E36C3E /* 図書室.−１JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B5E01D289DB000E36C3E /* 図書室.−１JPG */; };
 		7737B65D1D289DB100E36C3E /* 図書室.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B5E11D289DB000E36C3E /* 図書室.JPG */; };
-		7737B65E1D289DB100E36C3E /* 交流校.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7737B5E21D289DB000E36C3E /* 交流校.jpg */; };
-		7737B65F1D289DB100E36C3E /* 交流校.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B5E31D289DB000E36C3E /* 交流校.JPG */; };
-		7737B6601D289DB100E36C3E /* 星出さん.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B5E41D289DB000E36C3E /* 星出さん.JPG */; };
-		7737B6611D289DB100E36C3E /* 星出さん.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B5E51D289DB000E36C3E /* 星出さん.JPG */; };
-		7737B6621D289DB100E36C3E /* 星出さん.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B5E61D289DB000E36C3E /* 星出さん.JPG */; };
-		7737B6631D289DB100E36C3E /* 岩窟の天使.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B5E71D289DB000E36C3E /* 岩窟の天使.JPG */; };
-		7737B6641D289DB100E36C3E /* 岩窟の天使.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B5E81D289DB000E36C3E /* 岩窟の天使.JPG */; };
-		7737B6651D289DB100E36C3E /* 石像.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B5E91D289DB000E36C3E /* 石像.JPG */; };
-		7737B6661D289DB100E36C3E /* CIMG4015.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B5EA1D289DB000E36C3E /* CIMG4015.JPG */; };
-		7737B6671D289DB100E36C3E /* CIMG4016.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B5EB1D289DB000E36C3E /* CIMG4016.JPG */; };
-		7737B6681D289DB100E36C3E /* CIMG4017.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B5EC1D289DB000E36C3E /* CIMG4017.JPG */; };
 		7737B6691D289DB100E36C3E /* 101教室.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B5ED1D289DB000E36C3E /* 101教室.JPG */; };
 		7737B66A1D289DB100E36C3E /* 書道室.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B5EE1D289DB000E36C3E /* 書道室.JPG */; };
-		7737B66B1D289DB100E36C3E /* CIMG4020.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B5EF1D289DB000E36C3E /* CIMG4020.JPG */; };
-		7737B66C1D289DB100E36C3E /* 顕微鏡.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B5F01D289DB000E36C3E /* 顕微鏡.JPG */; };
-		7737B66D1D289DB100E36C3E /* 生物室の機械.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B5F11D289DB000E36C3E /* 生物室の機械.JPG */; };
-		7737B66E1D289DB100E36C3E /* 生物室の機械-1.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B5F21D289DB000E36C3E /* 生物室の機械-1.JPG */; };
-		7737B66F1D289DB100E36C3E /* 生物室廊下.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B5F31D289DB000E36C3E /* 生物室廊下.JPG */; };
-		7737B6701D289DB100E36C3E /* CIMG4025生物室廊下-1.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B5F41D289DB000E36C3E /* CIMG4025生物室廊下-1.JPG */; };
-		7737B6711D289DB100E36C3E /* 第一AVE前.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B5F51D289DB000E36C3E /* 第一AVE前.JPG */; };
-		7737B6721D289DB100E36C3E /* コモンスペース.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B5F61D289DB000E36C3E /* コモンスペース.JPG */; };
 		7737B6731D289DB100E36C3E /* セミナー室.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B5F71D289DB000E36C3E /* セミナー室.JPG */; };
 		7737B6741D289DB100E36C3E /* 第一美術室.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B5F81D289DB000E36C3E /* 第一美術室.JPG */; };
-		7737B6751D289DB100E36C3E /* 第一美術室-1.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B5F91D289DB000E36C3E /* 第一美術室-1.JPG */; };
-		7737B6761D289DB100E36C3E /* 第一美術室-2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B5FA1D289DB000E36C3E /* 第一美術室-2.JPG */; };
-		7737B6771D289DB100E36C3E /* 第一美術室-3.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B5FB1D289DB000E36C3E /* 第一美術室-3.JPG */; };
 		7737B6781D289DB100E36C3E /* 第三美術室.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B5FC1D289DB000E36C3E /* 第三美術室.JPG */; };
 		7737B6791D289DB100E36C3E /* HR教室.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B5FD1D289DB000E36C3E /* HR教室.JPG */; };
-		7737B67A1D289DB100E36C3E /* HR教室-1.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B5FE1D289DB000E36C3E /* HR教室-1.JPG */; };
-		7737B67B1D289DB100E36C3E /* プロジェクタ.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B5FF1D289DB000E36C3E /* プロジェクタ.JPG */; };
-		7737B67C1D289DB100E36C3E /* 中庭（雨）.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B6001D289DB000E36C3E /* 中庭（雨）.JPG */; };
-		7737B67D1D289DB100E36C3E /* CIMG4038.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B6011D289DB000E36C3E /* CIMG4038.JPG */; };
-		7737B67E1D289DB100E36C3E /* CIMG4039.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B6021D289DB000E36C3E /* CIMG4039.JPG */; };
 		7737B67F1D289DB100E36C3E /* 第一コンピューター室.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B6031D289DB000E36C3E /* 第一コンピューター室.JPG */; };
-		7737B6801D289DB100E36C3E /* CIMG4041.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B6041D289DB000E36C3E /* CIMG4041.JPG */; };
-		7737B6811D289DB100E36C3E /* CIMG4042.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B6051D289DB000E36C3E /* CIMG4042.JPG */; };
 		7737B6821D289DB100E36C3E /* 保健室.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B6061D289DB000E36C3E /* 保健室.JPG */; };
-		7737B6831D289DB100E36C3E /* CIMG4044.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B6071D289DB000E36C3E /* CIMG4044.JPG */; };
 		7737B6841D289DB100E36C3E /* 事務室.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B6081D289DB000E36C3E /* 事務室.JPG */; };
-		7737B6851D289DB100E36C3E /* CIMG4046.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B6091D289DB000E36C3E /* CIMG4046.JPG */; };
 		7737B6861D289DB100E36C3E /* 第一体育館-6.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B60A1D289DB000E36C3E /* 第一体育館-6.JPG */; };
-		7737B6871D289DB100E36C3E /* 馬の彫像.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B60B1D289DB000E36C3E /* 馬の彫像.JPG */; };
 		7737B6881D289DB100E36C3E /* 高校等前.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B60C1D289DB000E36C3E /* 高校等前.JPG */; };
-		7737B6891D289DB100E36C3E /* CIMG4052.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B60D1D289DB000E36C3E /* CIMG4052.JPG */; };
 		7737B68A1D289DB100E36C3E /* 高校棟前.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B60E1D289DB000E36C3E /* 高校棟前.JPG */; };
-		7737B68B1D289DB100E36C3E /* CIMG4054.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B60F1D289DB000E36C3E /* CIMG4054.JPG */; };
-		7737B68C1D289DB100E36C3E /* CIMG4055.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B6101D289DB000E36C3E /* CIMG4055.JPG */; };
-		7737B68D1D289DB100E36C3E /* 高校等前彫像.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B6111D289DB000E36C3E /* 高校等前彫像.JPG */; };
-		7737B68E1D289DB100E36C3E /* 自転車.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B6121D289DB000E36C3E /* 自転車.JPG */; };
-		7737B68F1D289DB100E36C3E /* 事務室前オブッジェ.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B6131D289DB000E36C3E /* 事務室前オブッジェ.JPG */; };
-		7737B6901D289DB100E36C3E /* CIMG4059.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B6141D289DB000E36C3E /* CIMG4059.JPG */; };
-		7737B6911D289DB100E36C3E /* 事務室前の木.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B6151D289DB000E36C3E /* 事務室前の木.JPG */; };
-		7737B6921D289DB100E36C3E /* CIMG4061.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B6161D289DB000E36C3E /* CIMG4061.JPG */; };
-		7737B6931D289DB100E36C3E /* CIMG4062.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B6171D289DB000E36C3E /* CIMG4062.JPG */; };
-		7737B6941D289DB100E36C3E /* CIMG4063.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B6181D289DB000E36C3E /* CIMG4063.JPG */; };
 		7737B6951D289DB100E36C3E /* 購買.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B6191D289DB000E36C3E /* 購買.JPG */; };
-		7737B6961D289DB100E36C3E /* 購買注文所.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B61A1D289DB000E36C3E /* 購買注文所.JPG */; };
-		7737B6971D289DB100E36C3E /* CIMG4066.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B61B1D289DB000E36C3E /* CIMG4066.JPG */; };
-		7737B6981D289DB100E36C3E /* CIMG4067.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B61C1D289DB000E36C3E /* CIMG4067.JPG */; };
-		7737B6991D289DB100E36C3E /* CIMG4068.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B61D1D289DB000E36C3E /* CIMG4068.JPG */; };
-		7737B69A1D289DB100E36C3E /* CIMG4069.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B61E1D289DB100E36C3E /* CIMG4069.JPG */; };
 		7737B69B1D289DB100E36C3E /* 中庭.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B61F1D289DB100E36C3E /* 中庭.JPG */; };
-		7737B69D1D289DB100E36C3E /* CIMG4072.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B6211D289DB100E36C3E /* CIMG4072.JPG */; };
-		7737B69E1D289DB100E36C3E /* 柔道場qドァ.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B6221D289DB100E36C3E /* 柔道場qドァ.JPG */; };
 		7737B69F1D289DB100E36C3E /* 柔道場.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B6231D289DB100E36C3E /* 柔道場.JPG */; };
-		7737B6A01D289DB100E36C3E /* CIMG4075.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B6241D289DB100E36C3E /* CIMG4075.JPG */; };
-		7737B6A11D289DB100E36C3E /* CIMG4076.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B6251D289DB100E36C3E /* CIMG4076.JPG */; };
-		7737B6A21D289DB100E36C3E /* あwっd.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B6261D289DB100E36C3E /* あwっd.JPG */; };
-		7737B6A31D289DB100E36C3E /* CIMG4078.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B6271D289DB100E36C3E /* CIMG4078.JPG */; };
 		7737B6A41D289DB100E36C3E /* 剣道場.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B6281D289DB100E36C3E /* 剣道場.JPG */; };
 		7737B6A51D289DB100E36C3E /* プール.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B6291D289DB100E36C3E /* プール.JPG */; };
-		7737B6A61D289DB100E36C3E /* CIMG4081.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B62A1D289DB100E36C3E /* CIMG4081.JPG */; };
-		7737B6A71D289DB100E36C3E /* CIMG4082.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B62B1D289DB100E36C3E /* CIMG4082.JPG */; };
-		7737B6A81D289DB100E36C3E /* CIMG4083.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B62C1D289DB100E36C3E /* CIMG4083.JPG */; };
-		7737B6A91D289DB100E36C3E /* CIMG4084.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B62D1D289DB100E36C3E /* CIMG4084.JPG */; };
 		7737B6AA1D289DB100E36C3E /* ラグビー場.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B62E1D289DB100E36C3E /* ラグビー場.JPG */; };
-		7737B6AB1D289DB100E36C3E /* CIMG4086.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B62F1D289DB100E36C3E /* CIMG4086.JPG */; };
-		7737B6AC1D289DB100E36C3E /* CIMG4087.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B6301D289DB100E36C3E /* CIMG4087.JPG */; };
-		7737B6AD1D289DB100E36C3E /* 無線斑の電波塔.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7737B6311D289DB100E36C3E /* 無線斑の電波塔.JPG */; };
 		7737B6AE1D289DB100E36C3E /* ひたち野うしく.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7737B6321D289DB100E36C3E /* ひたち野うしく.jpg */; };
 		7737B6AF1D289DB100E36C3E /* 研究学園.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7737B6331D289DB100E36C3E /* 研究学園.jpg */; };
 		773924881D01B28E00531DFC /* UITableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773924871D01B28E00531DFC /* UITableViewController.swift */; };
@@ -148,17 +52,13 @@
 		7765EF6A1D181A280097B835 /* BusTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7765EF691D181A280097B835 /* BusTimeViewController.swift */; };
 		77744B301CCA3EE600D4024A /* logo_meikeiのコピー.png in Resources */ = {isa = PBXBuildFile; fileRef = 77744B2F1CCA3EE600D4024A /* logo_meikeiのコピー.png */; };
 		77744B341CCA478C00D4024A /* mmd.png in Resources */ = {isa = PBXBuildFile; fileRef = 77744B331CCA478C00D4024A /* mmd.png */; };
-		77845B131D5B2A24003C60D5 /* トレーナー室.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 77845B0C1D5B2A23003C60D5 /* トレーナー室.JPG */; };
 		77845B141D5B2A24003C60D5 /* 校長室前廊下.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 77845B0D1D5B2A23003C60D5 /* 校長室前廊下.JPG */; };
-		77845B151D5B2A24003C60D5 /* 皇帝.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 77845B0E1D5B2A23003C60D5 /* 皇帝.JPG */; };
-		77845B161D5B2A24003C60D5 /* CIMG4359.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 77845B0F1D5B2A23003C60D5 /* CIMG4359.JPG */; };
-		77845B171D5B2A24003C60D5 /* CIMG4360.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 77845B101D5B2A23003C60D5 /* CIMG4360.JPG */; };
 		77845B181D5B2A24003C60D5 /* 音楽室.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 77845B111D5B2A24003C60D5 /* 音楽室.JPG */; };
-		77845B191D5B2A24003C60D5 /* 音楽室2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 77845B121D5B2A24003C60D5 /* 音楽室2.JPG */; };
 		77845B1B1D5B2C09003C60D5 /* トレーナ室.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 77845B1A1D5B2C09003C60D5 /* トレーナ室.JPG */; };
 		77845B1D1D5B2C59003C60D5 /* 相談.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 77845B1C1D5B2C59003C60D5 /* 相談.JPG */; };
 		7785B46B1D6D9B95000FD944 /* android-chrome-192x192.png in Resources */ = {isa = PBXBuildFile; fileRef = 7785B46A1D6D9B95000FD944 /* android-chrome-192x192.png */; };
 		7789AC421D6FD2D800CACFC5 /* QRcode-第一体育館.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7789AC411D6FD2D800CACFC5 /* QRcode-第一体育館.jpg */; };
+		7789AC441D6FFC3200CACFC5 /* 無線斑の電波塔.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7789AC431D6FFC3200CACFC5 /* 無線斑の電波塔.JPG */; };
 		77B276F91D4C9A3C0010EF44 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 77B276F41D4C9A3C0010EF44 /* Default-568h@2x.png */; };
 		77B276FA1D4C9A3C0010EF44 /* Default-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 77B276F51D4C9A3C0010EF44 /* Default-667h@2x.png */; };
 		77B276FB1D4C9A3C0010EF44 /* Default-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 77B276F61D4C9A3C0010EF44 /* Default-736h@3x.png */; };
@@ -198,139 +98,43 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7708CEE51D4E1F2B00B2FE94 /* CIMG4202.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CIMG4202.JPG; sourceTree = "<group>"; };
 		7708CEE61D4E1F2B00B2FE94 /* 寮.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "寮.JPG"; sourceTree = "<group>"; };
-		7708CEE71D4E1F2B00B2FE94 /* CIMG4204.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CIMG4204.JPG; sourceTree = "<group>"; };
 		7708CEE81D4E1F2B00B2FE94 /* 寮門前.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "寮門前.JPG"; sourceTree = "<group>"; };
-		7708CEE91D4E1F2B00B2FE94 /* CIMG4206.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CIMG4206.JPG; sourceTree = "<group>"; };
 		7708CEEA1D4E1F2B00B2FE94 /* 食堂前.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "食堂前.JPG"; sourceTree = "<group>"; };
-		7708CEEB1D4E1F2B00B2FE94 /* CIMG4208.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CIMG4208.JPG; sourceTree = "<group>"; };
 		7708CEF31D4E2DBA00B2FE94 /* コモンスペース1.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "コモンスペース1.JPG"; sourceTree = "<group>"; };
 		7714D2B61D5730B000CF348D /* c7f06ee3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = c7f06ee3.jpg; sourceTree = "<group>"; };
 		7714D2B81D57385500CF348D /* スクリーンショット 2016-08-07 18.34.53.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "スクリーンショット 2016-08-07 18.34.53.png"; sourceTree = "<group>"; };
 		7714D2BA1D573DD500CF348D /* icon_027123_256.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = icon_027123_256.jpg; sourceTree = "<group>"; };
 		7714D2BC1D573E9F00CF348D /* icon_002751_256.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = icon_002751_256.jpg; sourceTree = "<group>"; };
-		7737B5B81D289DB000E36C3E /* 6方面-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "6方面-2.jpg"; sourceTree = "<group>"; };
-		7737B5B91D289DB000E36C3E /* 6方面-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "6方面-3.jpg"; sourceTree = "<group>"; };
-		7737B5BA1D289DB000E36C3E /* 6方面.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "6方面.jpg"; sourceTree = "<group>"; };
-		7737B5BB1D289DB000E36C3E /* 第一体育館.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "第一体育館.JPG"; sourceTree = "<group>"; };
-		7737B5BC1D289DB000E36C3E /* 第一体育館-2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "第一体育館-2.JPG"; sourceTree = "<group>"; };
-		7737B5BD1D289DB000E36C3E /* 第一体育館-3.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "第一体育館-3.JPG"; sourceTree = "<group>"; };
-		7737B5BE1D289DB000E36C3E /* 第一体育館-４.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "第一体育館-４.JPG"; sourceTree = "<group>"; };
-		7737B5BF1D289DB000E36C3E /* 第一体育館-５.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "第一体育館-５.JPG"; sourceTree = "<group>"; };
-		7737B5C01D289DB000E36C3E /* ピット.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ピット.JPG"; sourceTree = "<group>"; };
+		7737B5B81D289DB000E36C3E /* 6方面-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "6方面-2.jpg"; path = "見学用写真/6方面-2.jpg"; sourceTree = "<group>"; };
+		7737B5B91D289DB000E36C3E /* 6方面-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "6方面-3.jpg"; path = "見学用写真/6方面-3.jpg"; sourceTree = "<group>"; };
+		7737B5BA1D289DB000E36C3E /* 6方面.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "6方面.jpg"; path = "見学用写真/6方面.jpg"; sourceTree = "<group>"; };
 		7737B5C11D289DB000E36C3E /* 第二体育館.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "第二体育館.JPG"; sourceTree = "<group>"; };
-		7737B5C21D289DB000E36C3E /* 第二体育館-2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "第二体育館-2.JPG"; sourceTree = "<group>"; };
-		7737B5C31D289DB000E36C3E /* 第二体育館-3.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "第二体育館-3.JPG"; sourceTree = "<group>"; };
-		7737B5C41D289DB000E36C3E /* トレーナー室.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "トレーナー室.JPG"; sourceTree = "<group>"; };
-		7737B5C51D289DB000E36C3E /* ショーケース.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ショーケース.JPG"; sourceTree = "<group>"; };
-		7737B5C61D289DB000E36C3E /* ショーケース.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ショーケース.JPG"; sourceTree = "<group>"; };
-		7737B5C71D289DB000E36C3E /* 電気釜.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "電気釜.JPG"; sourceTree = "<group>"; };
-		7737B5C81D289DB000E36C3E /* 電気釜.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "電気釜.JPG"; sourceTree = "<group>"; };
 		7737B5C91D289DB000E36C3E /* 第二美術室.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "第二美術室.JPG"; sourceTree = "<group>"; };
-		7737B5CA1D289DB000E36C3E /* コモンスペース１.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "コモンスペース１.JPG"; sourceTree = "<group>"; };
-		7737B5CB1D289DB000E36C3E /* コモンスペース.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "コモンスペース.JPG"; sourceTree = "<group>"; };
 		7737B5CC1D289DB000E36C3E /* コモンスペース２.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "コモンスペース２.JPG"; sourceTree = "<group>"; };
-		7737B5CD1D289DB000E36C3E /* コモンスペース２-2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "コモンスペース２-2.JPG"; sourceTree = "<group>"; };
-		7737B5CE1D289DB000E36C3E /* CIMG3987.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CIMG3987.JPG; sourceTree = "<group>"; };
 		7737B5CF1D289DB000E36C3E /* 高校職員室前.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "高校職員室前.JPG"; sourceTree = "<group>"; };
-		7737B5D01D289DB000E36C3E /* 陶芸.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "陶芸.JPG"; sourceTree = "<group>"; };
-		7737B5D11D289DB000E36C3E /* 陶芸-2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "陶芸-2.JPG"; sourceTree = "<group>"; };
-		7737B5D21D289DB000E36C3E /* 陶芸-3.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "陶芸-3.JPG"; sourceTree = "<group>"; };
-		7737B5D31D289DB000E36C3E /* 巻物.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "巻物.JPG"; sourceTree = "<group>"; };
-		7737B5D41D289DB000E36C3E /* 二人の天使.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "二人の天使.JPG"; sourceTree = "<group>"; };
-		7737B5D51D289DB000E36C3E /* 二人の天使-2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "二人の天使-2.JPG"; sourceTree = "<group>"; };
-		7737B5D61D289DB000E36C3E /* トイレ.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "トイレ.JPG"; sourceTree = "<group>"; };
-		7737B5D71D289DB000E36C3E /* トイレ中.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "トイレ中.JPG"; sourceTree = "<group>"; };
 		7737B5D81D289DB000E36C3E /* 生物実験室.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "生物実験室.JPG"; sourceTree = "<group>"; };
-		7737B5D91D289DB000E36C3E /* 顕微鏡.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "顕微鏡.JPG"; sourceTree = "<group>"; };
-		7737B5DA1D289DB000E36C3E /* シラバス.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "シラバス.JPG"; sourceTree = "<group>"; };
-		7737B5DB1D289DB000E36C3E /* 個人研.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "個人研.JPG"; sourceTree = "<group>"; };
-		7737B5DC1D289DB000E36C3E /* 個人研.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "個人研.JPG"; sourceTree = "<group>"; };
 		7737B5DD1D289DB000E36C3E /* 進路資料室.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "進路資料室.JPG"; sourceTree = "<group>"; };
 		7737B5DE1D289DB000E36C3E /* 大教室前絵画.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "大教室前絵画.JPG"; sourceTree = "<group>"; };
-		7737B5DF1D289DB000E36C3E /* 大教室前絵画.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "大教室前絵画.JPG"; sourceTree = "<group>"; };
-		7737B5E01D289DB000E36C3E /* 図書室.−１JPG */ = {isa = PBXFileReference; lastKnownFileType = file; path = "図書室.−１JPG"; sourceTree = "<group>"; };
 		7737B5E11D289DB000E36C3E /* 図書室.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "図書室.JPG"; sourceTree = "<group>"; };
-		7737B5E21D289DB000E36C3E /* 交流校.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "交流校.jpg"; sourceTree = "<group>"; };
-		7737B5E31D289DB000E36C3E /* 交流校.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "交流校.JPG"; sourceTree = "<group>"; };
-		7737B5E41D289DB000E36C3E /* 星出さん.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "星出さん.JPG"; sourceTree = "<group>"; };
-		7737B5E51D289DB000E36C3E /* 星出さん.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "星出さん.JPG"; sourceTree = "<group>"; };
-		7737B5E61D289DB000E36C3E /* 星出さん.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "星出さん.JPG"; sourceTree = "<group>"; };
-		7737B5E71D289DB000E36C3E /* 岩窟の天使.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "岩窟の天使.JPG"; sourceTree = "<group>"; };
-		7737B5E81D289DB000E36C3E /* 岩窟の天使.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "岩窟の天使.JPG"; sourceTree = "<group>"; };
-		7737B5E91D289DB000E36C3E /* 石像.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "石像.JPG"; sourceTree = "<group>"; };
-		7737B5EA1D289DB000E36C3E /* CIMG4015.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CIMG4015.JPG; sourceTree = "<group>"; };
-		7737B5EB1D289DB000E36C3E /* CIMG4016.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CIMG4016.JPG; sourceTree = "<group>"; };
-		7737B5EC1D289DB000E36C3E /* CIMG4017.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CIMG4017.JPG; sourceTree = "<group>"; };
 		7737B5ED1D289DB000E36C3E /* 101教室.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "101教室.JPG"; sourceTree = "<group>"; };
 		7737B5EE1D289DB000E36C3E /* 書道室.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "書道室.JPG"; sourceTree = "<group>"; };
-		7737B5EF1D289DB000E36C3E /* CIMG4020.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CIMG4020.JPG; sourceTree = "<group>"; };
-		7737B5F01D289DB000E36C3E /* 顕微鏡.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "顕微鏡.JPG"; sourceTree = "<group>"; };
-		7737B5F11D289DB000E36C3E /* 生物室の機械.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "生物室の機械.JPG"; sourceTree = "<group>"; };
-		7737B5F21D289DB000E36C3E /* 生物室の機械-1.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "生物室の機械-1.JPG"; sourceTree = "<group>"; };
-		7737B5F31D289DB000E36C3E /* 生物室廊下.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "生物室廊下.JPG"; sourceTree = "<group>"; };
-		7737B5F41D289DB000E36C3E /* CIMG4025生物室廊下-1.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "CIMG4025生物室廊下-1.JPG"; sourceTree = "<group>"; };
-		7737B5F51D289DB000E36C3E /* 第一AVE前.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "第一AVE前.JPG"; sourceTree = "<group>"; };
-		7737B5F61D289DB000E36C3E /* コモンスペース.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "コモンスペース.JPG"; sourceTree = "<group>"; };
 		7737B5F71D289DB000E36C3E /* セミナー室.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "セミナー室.JPG"; sourceTree = "<group>"; };
 		7737B5F81D289DB000E36C3E /* 第一美術室.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "第一美術室.JPG"; sourceTree = "<group>"; };
-		7737B5F91D289DB000E36C3E /* 第一美術室-1.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "第一美術室-1.JPG"; sourceTree = "<group>"; };
-		7737B5FA1D289DB000E36C3E /* 第一美術室-2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "第一美術室-2.JPG"; sourceTree = "<group>"; };
-		7737B5FB1D289DB000E36C3E /* 第一美術室-3.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "第一美術室-3.JPG"; sourceTree = "<group>"; };
 		7737B5FC1D289DB000E36C3E /* 第三美術室.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "第三美術室.JPG"; sourceTree = "<group>"; };
 		7737B5FD1D289DB000E36C3E /* HR教室.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "HR教室.JPG"; sourceTree = "<group>"; };
-		7737B5FE1D289DB000E36C3E /* HR教室-1.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "HR教室-1.JPG"; sourceTree = "<group>"; };
-		7737B5FF1D289DB000E36C3E /* プロジェクタ.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "プロジェクタ.JPG"; sourceTree = "<group>"; };
-		7737B6001D289DB000E36C3E /* 中庭（雨）.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "中庭（雨）.JPG"; sourceTree = "<group>"; };
-		7737B6011D289DB000E36C3E /* CIMG4038.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CIMG4038.JPG; sourceTree = "<group>"; };
-		7737B6021D289DB000E36C3E /* CIMG4039.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CIMG4039.JPG; sourceTree = "<group>"; };
 		7737B6031D289DB000E36C3E /* 第一コンピューター室.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "第一コンピューター室.JPG"; sourceTree = "<group>"; };
-		7737B6041D289DB000E36C3E /* CIMG4041.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CIMG4041.JPG; sourceTree = "<group>"; };
-		7737B6051D289DB000E36C3E /* CIMG4042.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CIMG4042.JPG; sourceTree = "<group>"; };
 		7737B6061D289DB000E36C3E /* 保健室.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "保健室.JPG"; sourceTree = "<group>"; };
-		7737B6071D289DB000E36C3E /* CIMG4044.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CIMG4044.JPG; sourceTree = "<group>"; };
 		7737B6081D289DB000E36C3E /* 事務室.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "事務室.JPG"; sourceTree = "<group>"; };
-		7737B6091D289DB000E36C3E /* CIMG4046.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CIMG4046.JPG; sourceTree = "<group>"; };
 		7737B60A1D289DB000E36C3E /* 第一体育館-6.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "第一体育館-6.JPG"; sourceTree = "<group>"; };
-		7737B60B1D289DB000E36C3E /* 馬の彫像.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "馬の彫像.JPG"; sourceTree = "<group>"; };
 		7737B60C1D289DB000E36C3E /* 高校等前.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "高校等前.JPG"; sourceTree = "<group>"; };
-		7737B60D1D289DB000E36C3E /* CIMG4052.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CIMG4052.JPG; sourceTree = "<group>"; };
 		7737B60E1D289DB000E36C3E /* 高校棟前.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "高校棟前.JPG"; sourceTree = "<group>"; };
-		7737B60F1D289DB000E36C3E /* CIMG4054.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CIMG4054.JPG; sourceTree = "<group>"; };
-		7737B6101D289DB000E36C3E /* CIMG4055.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CIMG4055.JPG; sourceTree = "<group>"; };
-		7737B6111D289DB000E36C3E /* 高校等前彫像.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "高校等前彫像.JPG"; sourceTree = "<group>"; };
-		7737B6121D289DB000E36C3E /* 自転車.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "自転車.JPG"; sourceTree = "<group>"; };
-		7737B6131D289DB000E36C3E /* 事務室前オブッジェ.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "事務室前オブッジェ.JPG"; sourceTree = "<group>"; };
-		7737B6141D289DB000E36C3E /* CIMG4059.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CIMG4059.JPG; sourceTree = "<group>"; };
-		7737B6151D289DB000E36C3E /* 事務室前の木.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "事務室前の木.JPG"; sourceTree = "<group>"; };
-		7737B6161D289DB000E36C3E /* CIMG4061.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CIMG4061.JPG; sourceTree = "<group>"; };
-		7737B6171D289DB000E36C3E /* CIMG4062.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CIMG4062.JPG; sourceTree = "<group>"; };
-		7737B6181D289DB000E36C3E /* CIMG4063.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CIMG4063.JPG; sourceTree = "<group>"; };
 		7737B6191D289DB000E36C3E /* 購買.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "購買.JPG"; sourceTree = "<group>"; };
-		7737B61A1D289DB000E36C3E /* 購買注文所.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "購買注文所.JPG"; sourceTree = "<group>"; };
-		7737B61B1D289DB000E36C3E /* CIMG4066.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CIMG4066.JPG; sourceTree = "<group>"; };
-		7737B61C1D289DB000E36C3E /* CIMG4067.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CIMG4067.JPG; sourceTree = "<group>"; };
-		7737B61D1D289DB000E36C3E /* CIMG4068.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CIMG4068.JPG; sourceTree = "<group>"; };
-		7737B61E1D289DB100E36C3E /* CIMG4069.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CIMG4069.JPG; sourceTree = "<group>"; };
 		7737B61F1D289DB100E36C3E /* 中庭.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "中庭.JPG"; sourceTree = "<group>"; };
-		7737B6211D289DB100E36C3E /* CIMG4072.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CIMG4072.JPG; sourceTree = "<group>"; };
-		7737B6221D289DB100E36C3E /* 柔道場qドァ.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "柔道場qドァ.JPG"; sourceTree = "<group>"; };
 		7737B6231D289DB100E36C3E /* 柔道場.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "柔道場.JPG"; sourceTree = "<group>"; };
-		7737B6241D289DB100E36C3E /* CIMG4075.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CIMG4075.JPG; sourceTree = "<group>"; };
-		7737B6251D289DB100E36C3E /* CIMG4076.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CIMG4076.JPG; sourceTree = "<group>"; };
-		7737B6261D289DB100E36C3E /* あwっd.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "あwっd.JPG"; sourceTree = "<group>"; };
-		7737B6271D289DB100E36C3E /* CIMG4078.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CIMG4078.JPG; sourceTree = "<group>"; };
 		7737B6281D289DB100E36C3E /* 剣道場.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "剣道場.JPG"; sourceTree = "<group>"; };
 		7737B6291D289DB100E36C3E /* プール.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "プール.JPG"; sourceTree = "<group>"; };
-		7737B62A1D289DB100E36C3E /* CIMG4081.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CIMG4081.JPG; sourceTree = "<group>"; };
-		7737B62B1D289DB100E36C3E /* CIMG4082.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CIMG4082.JPG; sourceTree = "<group>"; };
-		7737B62C1D289DB100E36C3E /* CIMG4083.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CIMG4083.JPG; sourceTree = "<group>"; };
-		7737B62D1D289DB100E36C3E /* CIMG4084.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CIMG4084.JPG; sourceTree = "<group>"; };
 		7737B62E1D289DB100E36C3E /* ラグビー場.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ラグビー場.JPG"; sourceTree = "<group>"; };
-		7737B62F1D289DB100E36C3E /* CIMG4086.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CIMG4086.JPG; sourceTree = "<group>"; };
-		7737B6301D289DB100E36C3E /* CIMG4087.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CIMG4087.JPG; sourceTree = "<group>"; };
-		7737B6311D289DB100E36C3E /* 無線斑の電波塔.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "無線斑の電波塔.JPG"; sourceTree = "<group>"; };
 		7737B6321D289DB100E36C3E /* ひたち野うしく.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "ひたち野うしく.jpg"; path = "見学用写真/ひたち野うしく.jpg"; sourceTree = "<group>"; };
 		7737B6331D289DB100E36C3E /* 研究学園.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "研究学園.jpg"; path = "見学用写真/研究学園.jpg"; sourceTree = "<group>"; };
 		773924871D01B28E00531DFC /* UITableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewController.swift; sourceTree = "<group>"; };
@@ -339,17 +143,13 @@
 		7765EF691D181A280097B835 /* BusTimeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusTimeViewController.swift; sourceTree = "<group>"; };
 		77744B2F1CCA3EE600D4024A /* logo_meikeiのコピー.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo_meikeiのコピー.png"; sourceTree = "<group>"; };
 		77744B331CCA478C00D4024A /* mmd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mmd.png; path = ../mmd.png; sourceTree = "<group>"; };
-		77845B0C1D5B2A23003C60D5 /* トレーナー室.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "トレーナー室.JPG"; sourceTree = "<group>"; };
 		77845B0D1D5B2A23003C60D5 /* 校長室前廊下.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "校長室前廊下.JPG"; sourceTree = "<group>"; };
-		77845B0E1D5B2A23003C60D5 /* 皇帝.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "皇帝.JPG"; sourceTree = "<group>"; };
-		77845B0F1D5B2A23003C60D5 /* CIMG4359.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CIMG4359.JPG; sourceTree = "<group>"; };
-		77845B101D5B2A23003C60D5 /* CIMG4360.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CIMG4360.JPG; sourceTree = "<group>"; };
 		77845B111D5B2A24003C60D5 /* 音楽室.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "音楽室.JPG"; sourceTree = "<group>"; };
-		77845B121D5B2A24003C60D5 /* 音楽室2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "音楽室2.JPG"; sourceTree = "<group>"; };
 		77845B1A1D5B2C09003C60D5 /* トレーナ室.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "トレーナ室.JPG"; sourceTree = "<group>"; };
 		77845B1C1D5B2C59003C60D5 /* 相談.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "相談.JPG"; sourceTree = "<group>"; };
 		7785B46A1D6D9B95000FD944 /* android-chrome-192x192.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "android-chrome-192x192.png"; sourceTree = "<group>"; };
 		7789AC411D6FD2D800CACFC5 /* QRcode-第一体育館.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "QRcode-第一体育館.jpg"; sourceTree = "<group>"; };
+		7789AC431D6FFC3200CACFC5 /* 無線斑の電波塔.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "無線斑の電波塔.JPG"; path = "../無線斑の電波塔.JPG"; sourceTree = "<group>"; };
 		77B276F41D4C9A3C0010EF44 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		77B276F51D4C9A3C0010EF44 /* Default-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-667h@2x.png"; sourceTree = "<group>"; };
 		77B276F61D4C9A3C0010EF44 /* Default-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-736h@3x.png"; sourceTree = "<group>"; };
@@ -405,144 +205,41 @@
 		7737B5B71D289DB000E36C3E /* 見学用写真 */ = {
 			isa = PBXGroup;
 			children = (
-				7708CEE51D4E1F2B00B2FE94 /* CIMG4202.JPG */,
+				7789AC431D6FFC3200CACFC5 /* 無線斑の電波塔.JPG */,
 				7708CEE61D4E1F2B00B2FE94 /* 寮.JPG */,
-				77845B0C1D5B2A23003C60D5 /* トレーナー室.JPG */,
 				77845B0D1D5B2A23003C60D5 /* 校長室前廊下.JPG */,
-				77845B0E1D5B2A23003C60D5 /* 皇帝.JPG */,
 				77845B1C1D5B2C59003C60D5 /* 相談.JPG */,
-				77845B0F1D5B2A23003C60D5 /* CIMG4359.JPG */,
 				77845B1A1D5B2C09003C60D5 /* トレーナ室.JPG */,
-				77845B101D5B2A23003C60D5 /* CIMG4360.JPG */,
 				77845B111D5B2A24003C60D5 /* 音楽室.JPG */,
-				77845B121D5B2A24003C60D5 /* 音楽室2.JPG */,
-				7708CEE71D4E1F2B00B2FE94 /* CIMG4204.JPG */,
 				7708CEE81D4E1F2B00B2FE94 /* 寮門前.JPG */,
-				7708CEE91D4E1F2B00B2FE94 /* CIMG4206.JPG */,
 				7708CEEA1D4E1F2B00B2FE94 /* 食堂前.JPG */,
-				7708CEEB1D4E1F2B00B2FE94 /* CIMG4208.JPG */,
-				7737B5B81D289DB000E36C3E /* 6方面-2.jpg */,
-				7737B5B91D289DB000E36C3E /* 6方面-3.jpg */,
-				7737B5BA1D289DB000E36C3E /* 6方面.jpg */,
-				7737B5BB1D289DB000E36C3E /* 第一体育館.JPG */,
-				7737B5BC1D289DB000E36C3E /* 第一体育館-2.JPG */,
-				7737B5BD1D289DB000E36C3E /* 第一体育館-3.JPG */,
-				7737B5BE1D289DB000E36C3E /* 第一体育館-４.JPG */,
-				7737B5BF1D289DB000E36C3E /* 第一体育館-５.JPG */,
-				7737B5C01D289DB000E36C3E /* ピット.JPG */,
 				7737B5C11D289DB000E36C3E /* 第二体育館.JPG */,
-				7737B5C21D289DB000E36C3E /* 第二体育館-2.JPG */,
-				7737B5C31D289DB000E36C3E /* 第二体育館-3.JPG */,
-				7737B5C41D289DB000E36C3E /* トレーナー室.JPG */,
-				7737B5C51D289DB000E36C3E /* ショーケース.JPG */,
-				7737B5C61D289DB000E36C3E /* ショーケース.JPG */,
-				7737B5C71D289DB000E36C3E /* 電気釜.JPG */,
-				7737B5C81D289DB000E36C3E /* 電気釜.JPG */,
 				7737B5C91D289DB000E36C3E /* 第二美術室.JPG */,
-				7737B5CA1D289DB000E36C3E /* コモンスペース１.JPG */,
-				7737B5CB1D289DB000E36C3E /* コモンスペース.JPG */,
 				7737B5CC1D289DB000E36C3E /* コモンスペース２.JPG */,
-				7737B5CD1D289DB000E36C3E /* コモンスペース２-2.JPG */,
-				7737B5CE1D289DB000E36C3E /* CIMG3987.JPG */,
 				7737B5CF1D289DB000E36C3E /* 高校職員室前.JPG */,
-				7737B5D01D289DB000E36C3E /* 陶芸.JPG */,
-				7737B5D11D289DB000E36C3E /* 陶芸-2.JPG */,
-				7737B5D21D289DB000E36C3E /* 陶芸-3.JPG */,
-				7737B5D31D289DB000E36C3E /* 巻物.JPG */,
-				7737B5D41D289DB000E36C3E /* 二人の天使.JPG */,
-				7737B5D51D289DB000E36C3E /* 二人の天使-2.JPG */,
-				7737B5D61D289DB000E36C3E /* トイレ.JPG */,
-				7737B5D71D289DB000E36C3E /* トイレ中.JPG */,
 				7737B5D81D289DB000E36C3E /* 生物実験室.JPG */,
-				7737B5D91D289DB000E36C3E /* 顕微鏡.JPG */,
-				7737B5DA1D289DB000E36C3E /* シラバス.JPG */,
-				7737B5DB1D289DB000E36C3E /* 個人研.JPG */,
-				7737B5DC1D289DB000E36C3E /* 個人研.JPG */,
 				7737B5DD1D289DB000E36C3E /* 進路資料室.JPG */,
 				7737B5DE1D289DB000E36C3E /* 大教室前絵画.JPG */,
-				7737B5DF1D289DB000E36C3E /* 大教室前絵画.JPG */,
-				7737B5E01D289DB000E36C3E /* 図書室.−１JPG */,
 				7737B5E11D289DB000E36C3E /* 図書室.JPG */,
-				7737B5E21D289DB000E36C3E /* 交流校.jpg */,
-				7737B5E31D289DB000E36C3E /* 交流校.JPG */,
-				7737B5E41D289DB000E36C3E /* 星出さん.JPG */,
-				7737B5E51D289DB000E36C3E /* 星出さん.JPG */,
-				7737B5E61D289DB000E36C3E /* 星出さん.JPG */,
-				7737B5E71D289DB000E36C3E /* 岩窟の天使.JPG */,
-				7737B5E81D289DB000E36C3E /* 岩窟の天使.JPG */,
-				7737B5E91D289DB000E36C3E /* 石像.JPG */,
-				7737B5EA1D289DB000E36C3E /* CIMG4015.JPG */,
-				7737B5EB1D289DB000E36C3E /* CIMG4016.JPG */,
-				7737B5EC1D289DB000E36C3E /* CIMG4017.JPG */,
 				7737B5ED1D289DB000E36C3E /* 101教室.JPG */,
 				7737B5EE1D289DB000E36C3E /* 書道室.JPG */,
-				7737B5EF1D289DB000E36C3E /* CIMG4020.JPG */,
-				7737B5F01D289DB000E36C3E /* 顕微鏡.JPG */,
-				7737B5F11D289DB000E36C3E /* 生物室の機械.JPG */,
-				7737B5F21D289DB000E36C3E /* 生物室の機械-1.JPG */,
-				7737B5F31D289DB000E36C3E /* 生物室廊下.JPG */,
-				7737B5F41D289DB000E36C3E /* CIMG4025生物室廊下-1.JPG */,
-				7737B5F51D289DB000E36C3E /* 第一AVE前.JPG */,
-				7737B5F61D289DB000E36C3E /* コモンスペース.JPG */,
 				7708CEF31D4E2DBA00B2FE94 /* コモンスペース1.JPG */,
 				7737B5F71D289DB000E36C3E /* セミナー室.JPG */,
 				7737B5F81D289DB000E36C3E /* 第一美術室.JPG */,
-				7737B5F91D289DB000E36C3E /* 第一美術室-1.JPG */,
-				7737B5FA1D289DB000E36C3E /* 第一美術室-2.JPG */,
-				7737B5FB1D289DB000E36C3E /* 第一美術室-3.JPG */,
 				7737B5FC1D289DB000E36C3E /* 第三美術室.JPG */,
 				7737B5FD1D289DB000E36C3E /* HR教室.JPG */,
-				7737B5FE1D289DB000E36C3E /* HR教室-1.JPG */,
-				7737B5FF1D289DB000E36C3E /* プロジェクタ.JPG */,
-				7737B6001D289DB000E36C3E /* 中庭（雨）.JPG */,
-				7737B6011D289DB000E36C3E /* CIMG4038.JPG */,
-				7737B6021D289DB000E36C3E /* CIMG4039.JPG */,
 				7737B6031D289DB000E36C3E /* 第一コンピューター室.JPG */,
-				7737B6041D289DB000E36C3E /* CIMG4041.JPG */,
-				7737B6051D289DB000E36C3E /* CIMG4042.JPG */,
 				7737B6061D289DB000E36C3E /* 保健室.JPG */,
-				7737B6071D289DB000E36C3E /* CIMG4044.JPG */,
 				7737B6081D289DB000E36C3E /* 事務室.JPG */,
-				7737B6091D289DB000E36C3E /* CIMG4046.JPG */,
 				7737B60A1D289DB000E36C3E /* 第一体育館-6.JPG */,
-				7737B60B1D289DB000E36C3E /* 馬の彫像.JPG */,
 				7737B60C1D289DB000E36C3E /* 高校等前.JPG */,
-				7737B60D1D289DB000E36C3E /* CIMG4052.JPG */,
 				7737B60E1D289DB000E36C3E /* 高校棟前.JPG */,
-				7737B60F1D289DB000E36C3E /* CIMG4054.JPG */,
-				7737B6101D289DB000E36C3E /* CIMG4055.JPG */,
-				7737B6111D289DB000E36C3E /* 高校等前彫像.JPG */,
-				7737B6121D289DB000E36C3E /* 自転車.JPG */,
-				7737B6131D289DB000E36C3E /* 事務室前オブッジェ.JPG */,
-				7737B6141D289DB000E36C3E /* CIMG4059.JPG */,
-				7737B6151D289DB000E36C3E /* 事務室前の木.JPG */,
-				7737B6161D289DB000E36C3E /* CIMG4061.JPG */,
-				7737B6171D289DB000E36C3E /* CIMG4062.JPG */,
-				7737B6181D289DB000E36C3E /* CIMG4063.JPG */,
 				7737B6191D289DB000E36C3E /* 購買.JPG */,
-				7737B61A1D289DB000E36C3E /* 購買注文所.JPG */,
-				7737B61B1D289DB000E36C3E /* CIMG4066.JPG */,
-				7737B61C1D289DB000E36C3E /* CIMG4067.JPG */,
-				7737B61D1D289DB000E36C3E /* CIMG4068.JPG */,
-				7737B61E1D289DB100E36C3E /* CIMG4069.JPG */,
 				7737B61F1D289DB100E36C3E /* 中庭.JPG */,
-				7737B6211D289DB100E36C3E /* CIMG4072.JPG */,
-				7737B6221D289DB100E36C3E /* 柔道場qドァ.JPG */,
 				7737B6231D289DB100E36C3E /* 柔道場.JPG */,
-				7737B6241D289DB100E36C3E /* CIMG4075.JPG */,
-				7737B6251D289DB100E36C3E /* CIMG4076.JPG */,
-				7737B6261D289DB100E36C3E /* あwっd.JPG */,
-				7737B6271D289DB100E36C3E /* CIMG4078.JPG */,
 				7737B6281D289DB100E36C3E /* 剣道場.JPG */,
 				7737B6291D289DB100E36C3E /* プール.JPG */,
-				7737B62A1D289DB100E36C3E /* CIMG4081.JPG */,
-				7737B62B1D289DB100E36C3E /* CIMG4082.JPG */,
-				7737B62C1D289DB100E36C3E /* CIMG4083.JPG */,
-				7737B62D1D289DB100E36C3E /* CIMG4084.JPG */,
 				7737B62E1D289DB100E36C3E /* ラグビー場.JPG */,
-				7737B62F1D289DB100E36C3E /* CIMG4086.JPG */,
-				7737B6301D289DB100E36C3E /* CIMG4087.JPG */,
-				7737B6311D289DB100E36C3E /* 無線斑の電波塔.JPG */,
 			);
 			path = "見学用写真";
 			sourceTree = "<group>";
@@ -595,8 +292,6 @@
 				774D2D341D1E1F5300CB21DB /* BusTimePictureViewController.swift */,
 				775BC97C1D27608F0005B14F /* koutsuuViewController.swift */,
 				77EF7EAF1CAF8E9A0071347A /* Main.storyboard */,
-				7789AC411D6FD2D800CACFC5 /* QRcode-第一体育館.jpg */,
-				7785B46A1D6D9B95000FD944 /* android-chrome-192x192.png */,
 				7737B5B71D289DB000E36C3E /* 見学用写真 */,
 				77F044DC1CDEFF2D00A8FB55 /* 交通案内.jpg */,
 				7714D2BC1D573E9F00CF348D /* icon_002751_256.jpg */,
@@ -608,6 +303,11 @@
 				77FBA8831CB0E1DD000C7ABD /* 茗溪　ロゴ.jpg */,
 				7737B6321D289DB100E36C3E /* ひたち野うしく.jpg */,
 				7737B6331D289DB100E36C3E /* 研究学園.jpg */,
+				7785B46A1D6D9B95000FD944 /* android-chrome-192x192.png */,
+				7737B5B81D289DB000E36C3E /* 6方面-2.jpg */,
+				7737B5B91D289DB000E36C3E /* 6方面-3.jpg */,
+				7737B5BA1D289DB000E36C3E /* 6方面.jpg */,
+				7789AC411D6FD2D800CACFC5 /* QRcode-第一体育館.jpg */,
 				77EF7EB21CAF8E9A0071347A /* Assets.xcassets */,
 				77EF7EB41CAF8E9A0071347A /* LaunchScreen.storyboard */,
 				77EF7EB71CAF8E9A0071347A /* Info.plist */,
@@ -738,163 +438,63 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7737B6971D289DB100E36C3E /* CIMG4066.JPG in Resources */,
 				7737B6821D289DB100E36C3E /* 保健室.JPG in Resources */,
 				7737B6AE1D289DB100E36C3E /* ひたち野うしく.jpg in Resources */,
 				7737B6481D289DB100E36C3E /* コモンスペース２.JPG in Resources */,
 				7737B6781D289DB100E36C3E /* 第三美術室.JPG in Resources */,
 				7737B6341D289DB100E36C3E /* 6方面-2.jpg in Resources */,
-				7737B6AB1D289DB100E36C3E /* CIMG4086.JPG in Resources */,
-				7737B67D1D289DB100E36C3E /* CIMG4038.JPG in Resources */,
-				7737B66C1D289DB100E36C3E /* 顕微鏡.JPG in Resources */,
-				7737B6771D289DB100E36C3E /* 第一美術室-3.JPG in Resources */,
-				7737B6911D289DB100E36C3E /* 事務室前の木.JPG in Resources */,
 				7737B69B1D289DB100E36C3E /* 中庭.JPG in Resources */,
-				7737B6471D289DB100E36C3E /* コモンスペース.JPG in Resources */,
-				7737B69D1D289DB100E36C3E /* CIMG4072.JPG in Resources */,
-				7708CEEC1D4E1F2B00B2FE94 /* CIMG4202.JPG in Resources */,
-				7737B6AC1D289DB100E36C3E /* CIMG4087.JPG in Resources */,
 				7737B6AF1D289DB100E36C3E /* 研究学園.jpg in Resources */,
-				77845B151D5B2A24003C60D5 /* 皇帝.JPG in Resources */,
 				7737B69F1D289DB100E36C3E /* 柔道場.JPG in Resources */,
-				7737B6851D289DB100E36C3E /* CIMG4046.JPG in Resources */,
-				7737B68C1D289DB100E36C3E /* CIMG4055.JPG in Resources */,
-				7737B6681D289DB100E36C3E /* CIMG4017.JPG in Resources */,
-				7737B6621D289DB100E36C3E /* 星出さん.JPG in Resources */,
 				7737B6591D289DB100E36C3E /* 進路資料室.JPG in Resources */,
 				7708CEED1D4E1F2B00B2FE94 /* 寮.JPG in Resources */,
-				7737B6901D289DB100E36C3E /* CIMG4059.JPG in Resources */,
-				7737B6411D289DB100E36C3E /* ショーケース.JPG in Resources */,
-				7737B66D1D289DB100E36C3E /* 生物室の機械.JPG in Resources */,
 				7714D2B91D57385500CF348D /* スクリーンショット 2016-08-07 18.34.53.png in Resources */,
 				7714D2B71D5730B000CF348D /* c7f06ee3.jpg in Resources */,
-				7737B64A1D289DB100E36C3E /* CIMG3987.JPG in Resources */,
-				7737B63E1D289DB100E36C3E /* 第二体育館-2.JPG in Resources */,
-				7737B63C1D289DB100E36C3E /* ピット.JPG in Resources */,
-				7737B6601D289DB100E36C3E /* 星出さん.JPG in Resources */,
-				7737B6991D289DB100E36C3E /* CIMG4068.JPG in Resources */,
-				7737B6761D289DB100E36C3E /* 第一美術室-2.JPG in Resources */,
-				7737B63A1D289DB100E36C3E /* 第一体育館-４.JPG in Resources */,
 				7737B6A51D289DB100E36C3E /* プール.JPG in Resources */,
-				7737B6581D289DB100E36C3E /* 個人研.JPG in Resources */,
-				7737B6421D289DB100E36C3E /* ショーケース.JPG in Resources */,
-				7737B6831D289DB100E36C3E /* CIMG4044.JPG in Resources */,
-				7737B6871D289DB100E36C3E /* 馬の彫像.JPG in Resources */,
 				77744B341CCA478C00D4024A /* mmd.png in Resources */,
-				7737B64D1D289DB100E36C3E /* 陶芸-2.JPG in Resources */,
-				7737B67A1D289DB100E36C3E /* HR教室-1.JPG in Resources */,
 				7737B64B1D289DB100E36C3E /* 高校職員室前.JPG in Resources */,
 				7737B65A1D289DB100E36C3E /* 大教室前絵画.JPG in Resources */,
-				7737B65F1D289DB100E36C3E /* 交流校.JPG in Resources */,
 				77EF7EB61CAF8E9A0071347A /* LaunchScreen.storyboard in Resources */,
-				7737B69E1D289DB100E36C3E /* 柔道場qドァ.JPG in Resources */,
-				7737B6561D289DB100E36C3E /* シラバス.JPG in Resources */,
-				7737B63B1D289DB100E36C3E /* 第一体育館-５.JPG in Resources */,
-				7737B66E1D289DB100E36C3E /* 生物室の機械-1.JPG in Resources */,
-				7737B65E1D289DB100E36C3E /* 交流校.jpg in Resources */,
 				77744B301CCA3EE600D4024A /* logo_meikeiのコピー.png in Resources */,
 				77EF7EB31CAF8E9A0071347A /* Assets.xcassets in Resources */,
 				7737B6AA1D289DB100E36C3E /* ラグビー場.JPG in Resources */,
 				7737B66A1D289DB100E36C3E /* 書道室.JPG in Resources */,
-				7737B6401D289DB100E36C3E /* トレーナー室.JPG in Resources */,
-				7737B6A31D289DB100E36C3E /* CIMG4078.JPG in Resources */,
-				7737B67E1D289DB100E36C3E /* CIMG4039.JPG in Resources */,
 				7789AC421D6FD2D800CACFC5 /* QRcode-第一体育館.jpg in Resources */,
 				77EF7EB11CAF8E9A0071347A /* Main.storyboard in Resources */,
-				7708CEF01D4E1F2B00B2FE94 /* CIMG4206.JPG in Resources */,
 				7737B65D1D289DB100E36C3E /* 図書室.JPG in Resources */,
 				7737B6841D289DB100E36C3E /* 事務室.JPG in Resources */,
-				77845B171D5B2A24003C60D5 /* CIMG4360.JPG in Resources */,
-				7708CEEE1D4E1F2B00B2FE94 /* CIMG4204.JPG in Resources */,
 				7737B6351D289DB100E36C3E /* 6方面-3.jpg in Resources */,
 				77845B1B1D5B2C09003C60D5 /* トレーナ室.JPG in Resources */,
-				7737B6501D289DB100E36C3E /* 二人の天使.JPG in Resources */,
-				7737B6511D289DB100E36C3E /* 二人の天使-2.JPG in Resources */,
 				77FBA8841CB0E1DE000C7ABD /* 茗溪　ロゴ.jpg in Resources */,
 				77B276FC1D4C9A3C0010EF44 /* Default.png in Resources */,
-				7737B6371D289DB100E36C3E /* 第一体育館.JPG in Resources */,
 				77B276FB1D4C9A3C0010EF44 /* Default-736h@3x.png in Resources */,
-				7737B6441D289DB100E36C3E /* 電気釜.JPG in Resources */,
 				7737B6861D289DB100E36C3E /* 第一体育館-6.JPG in Resources */,
 				77845B181D5B2A24003C60D5 /* 音楽室.JPG in Resources */,
-				7737B68E1D289DB100E36C3E /* 自転車.JPG in Resources */,
 				77F044DD1CDEFF2D00A8FB55 /* 交通案内.jpg in Resources */,
 				7737B6A41D289DB100E36C3E /* 剣道場.JPG in Resources */,
 				7737B68A1D289DB100E36C3E /* 高校棟前.JPG in Resources */,
-				7708CEF21D4E1F2B00B2FE94 /* CIMG4208.JPG in Resources */,
-				7737B6891D289DB100E36C3E /* CIMG4052.JPG in Resources */,
-				7737B6711D289DB100E36C3E /* 第一AVE前.JPG in Resources */,
 				7708CEEF1D4E1F2B00B2FE94 /* 寮門前.JPG in Resources */,
 				7714D2BB1D573DD500CF348D /* icon_027123_256.jpg in Resources */,
-				7737B66F1D289DB100E36C3E /* 生物室廊下.JPG in Resources */,
-				7737B6491D289DB100E36C3E /* コモンスペース２-2.JPG in Resources */,
-				7737B6641D289DB100E36C3E /* 岩窟の天使.JPG in Resources */,
-				7737B6381D289DB100E36C3E /* 第一体育館-2.JPG in Resources */,
-				7737B6A71D289DB100E36C3E /* CIMG4082.JPG in Resources */,
-				7737B68B1D289DB100E36C3E /* CIMG4054.JPG in Resources */,
-				7737B64C1D289DB100E36C3E /* 陶芸.JPG in Resources */,
 				7785B46B1D6D9B95000FD944 /* android-chrome-192x192.png in Resources */,
-				7737B6AD1D289DB100E36C3E /* 無線斑の電波塔.JPG in Resources */,
-				7737B6A01D289DB100E36C3E /* CIMG4075.JPG in Resources */,
 				7737B6881D289DB100E36C3E /* 高校等前.JPG in Resources */,
-				7737B6611D289DB100E36C3E /* 星出さん.JPG in Resources */,
-				77845B161D5B2A24003C60D5 /* CIMG4359.JPG in Resources */,
-				7737B69A1D289DB100E36C3E /* CIMG4069.JPG in Resources */,
-				7737B6A11D289DB100E36C3E /* CIMG4076.JPG in Resources */,
 				77845B1D1D5B2C59003C60D5 /* 相談.JPG in Resources */,
 				7714D2BD1D573E9F00CF348D /* icon_002751_256.jpg in Resources */,
-				7737B6921D289DB100E36C3E /* CIMG4061.JPG in Resources */,
-				7737B68D1D289DB100E36C3E /* 高校等前彫像.JPG in Resources */,
-				7737B6651D289DB100E36C3E /* 石像.JPG in Resources */,
 				77B276F91D4C9A3C0010EF44 /* Default-568h@2x.png in Resources */,
-				7737B6631D289DB100E36C3E /* 岩窟の天使.JPG in Resources */,
-				7737B6721D289DB100E36C3E /* コモンスペース.JPG in Resources */,
-				7737B6661D289DB100E36C3E /* CIMG4015.JPG in Resources */,
-				77845B131D5B2A24003C60D5 /* トレーナー室.JPG in Resources */,
-				7737B6391D289DB100E36C3E /* 第一体育館-3.JPG in Resources */,
-				7737B67B1D289DB100E36C3E /* プロジェクタ.JPG in Resources */,
 				7737B6791D289DB100E36C3E /* HR教室.JPG in Resources */,
 				7737B6731D289DB100E36C3E /* セミナー室.JPG in Resources */,
 				7708CEF11D4E1F2B00B2FE94 /* 食堂前.JPG in Resources */,
-				7737B6A81D289DB100E36C3E /* CIMG4083.JPG in Resources */,
-				7737B6801D289DB100E36C3E /* CIMG4041.JPG in Resources */,
-				7737B6671D289DB100E36C3E /* CIMG4016.JPG in Resources */,
 				7737B6951D289DB100E36C3E /* 購買.JPG in Resources */,
 				7737B6361D289DB100E36C3E /* 6方面.jpg in Resources */,
 				7737B63D1D289DB100E36C3E /* 第二体育館.JPG in Resources */,
-				7737B66B1D289DB100E36C3E /* CIMG4020.JPG in Resources */,
 				7737B6691D289DB100E36C3E /* 101教室.JPG in Resources */,
-				77845B191D5B2A24003C60D5 /* 音楽室2.JPG in Resources */,
-				7737B6A91D289DB100E36C3E /* CIMG4084.JPG in Resources */,
-				7737B6981D289DB100E36C3E /* CIMG4067.JPG in Resources */,
-				7737B6431D289DB100E36C3E /* 電気釜.JPG in Resources */,
-				7737B65C1D289DB100E36C3E /* 図書室.−１JPG in Resources */,
-				7737B63F1D289DB100E36C3E /* 第二体育館-3.JPG in Resources */,
-				7737B6461D289DB100E36C3E /* コモンスペース１.JPG in Resources */,
-				7737B6571D289DB100E36C3E /* 個人研.JPG in Resources */,
-				7737B6751D289DB100E36C3E /* 第一美術室-1.JPG in Resources */,
-				7737B6941D289DB100E36C3E /* CIMG4063.JPG in Resources */,
 				7737B6451D289DB100E36C3E /* 第二美術室.JPG in Resources */,
-				7737B6551D289DB100E36C3E /* 顕微鏡.JPG in Resources */,
-				7737B64E1D289DB100E36C3E /* 陶芸-3.JPG in Resources */,
 				7737B67F1D289DB100E36C3E /* 第一コンピューター室.JPG in Resources */,
-				7737B6931D289DB100E36C3E /* CIMG4062.JPG in Resources */,
-				7737B65B1D289DB100E36C3E /* 大教室前絵画.JPG in Resources */,
-				7737B67C1D289DB100E36C3E /* 中庭（雨）.JPG in Resources */,
+				7789AC441D6FFC3200CACFC5 /* 無線斑の電波塔.JPG in Resources */,
 				77B276FA1D4C9A3C0010EF44 /* Default-667h@2x.png in Resources */,
 				7737B6741D289DB100E36C3E /* 第一美術室.JPG in Resources */,
 				7708CEF41D4E2DBA00B2FE94 /* コモンスペース1.JPG in Resources */,
 				77845B141D5B2A24003C60D5 /* 校長室前廊下.JPG in Resources */,
-				7737B64F1D289DB100E36C3E /* 巻物.JPG in Resources */,
-				7737B68F1D289DB100E36C3E /* 事務室前オブッジェ.JPG in Resources */,
-				7737B6A61D289DB100E36C3E /* CIMG4081.JPG in Resources */,
 				77B276FD1D4C9A3C0010EF44 /* Default@2x.png in Resources */,
-				7737B6A21D289DB100E36C3E /* あwっd.JPG in Resources */,
-				7737B6531D289DB100E36C3E /* トイレ中.JPG in Resources */,
-				7737B6521D289DB100E36C3E /* トイレ.JPG in Resources */,
-				7737B6701D289DB100E36C3E /* CIMG4025生物室廊下-1.JPG in Resources */,
-				7737B6811D289DB100E36C3E /* CIMG4042.JPG in Resources */,
-				7737B6961D289DB100E36C3E /* 購買注文所.JPG in Resources */,
 				7737B6541D289DB100E36C3E /* 生物実験室.JPG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
