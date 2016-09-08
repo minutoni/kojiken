@@ -10,8 +10,8 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="StartViewController" customModule="kojikenn" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="XAv-bq-q54"/>
-                        <viewControllerLayoutGuide type="bottom" id="EyL-rN-glW"/>
+                        <viewControllerLayoutGuide type="top" id="tdV-l5-5dP"/>
+                        <viewControllerLayoutGuide type="bottom" id="XIQ-Go-KDS"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -47,8 +47,8 @@
             <objects>
                 <viewController id="jlv-On-Dr6" customClass="SecondViewController" customModule="kojikenn" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="E2k-0f-Pg7"/>
-                        <viewControllerLayoutGuide type="bottom" id="Fnb-fH-aZt"/>
+                        <viewControllerLayoutGuide type="top" id="O6I-di-fCJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="KXB-xY-7YI"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Pwg-DW-iWu">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -104,8 +104,8 @@
             <objects>
                 <viewController id="7vW-L9-cUL" userLabel="アクセスView Controller" customClass="koutsuuViewController" customModule="kojikenn" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="jxn-OG-Ryy"/>
-                        <viewControllerLayoutGuide type="bottom" id="eK2-9a-lDC"/>
+                        <viewControllerLayoutGuide type="top" id="W66-FY-4cw"/>
+                        <viewControllerLayoutGuide type="bottom" id="hhn-cW-6Tf"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="by4-Fc-3RR">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -169,8 +169,8 @@ JR東京駅八重洲南口前から「つくばセンター」行きに乗ると
             <objects>
                 <viewController id="QWl-u1-Y2s" customClass="TableViewController" customModule="kojikenn" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="9yX-af-8b6"/>
-                        <viewControllerLayoutGuide type="bottom" id="5kM-Vv-ZI2"/>
+                        <viewControllerLayoutGuide type="top" id="Jth-en-4Y2"/>
+                        <viewControllerLayoutGuide type="bottom" id="nZn-hb-f4o"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="QTa-7r-kx1">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -232,8 +232,8 @@ JR東京駅八重洲南口前から「つくばセンター」行きに乗ると
             <objects>
                 <viewController id="Jdo-0n-atg" customClass="BusTimePictureViewController" customModule="kojikenn" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="TNS-i4-sQS"/>
-                        <viewControllerLayoutGuide type="bottom" id="Bm1-2w-4nn"/>
+                        <viewControllerLayoutGuide type="top" id="imD-H1-W9F"/>
+                        <viewControllerLayoutGuide type="bottom" id="wxR-X7-MpD"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Rg0-w2-ME6">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -259,8 +259,8 @@ JR東京駅八重洲南口前から「つくばセンター」行きに乗ると
             <objects>
                 <viewController id="rvx-h4-ABv" customClass="BusTimeViewController" customModule="kojikenn" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="ite-YV-QXW"/>
-                        <viewControllerLayoutGuide type="bottom" id="QJl-Jn-bJE"/>
+                        <viewControllerLayoutGuide type="top" id="Gmd-Nn-cce"/>
+                        <viewControllerLayoutGuide type="bottom" id="8Xc-Ka-cym"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="rq5-f2-lzE">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -299,8 +299,8 @@ JR東京駅八重洲南口前から「つくばセンター」行きに乗ると
             <objects>
                 <viewController id="6Iu-9z-MvA" customClass="UITableViewSyousaiViewController" customModule="kojikenn" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="NRd-Tg-bks"/>
-                        <viewControllerLayoutGuide type="bottom" id="r7u-Ot-5SH"/>
+                        <viewControllerLayoutGuide type="top" id="A3c-kQ-i3c"/>
+                        <viewControllerLayoutGuide type="bottom" id="puY-s6-5st"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="0ab-3y-WA7">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -310,7 +310,7 @@ JR東京駅八重洲南口前から「つくばセンター」行きに乗ると
                                 <rect key="frame" x="0.0" y="64" width="320" height="200"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2NX-tb-ran">
-                                <rect key="frame" x="264" y="272" width="56" height="50"/>
+                                <rect key="frame" x="258" y="264" width="62" height="58"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
                                 <state key="normal" title="Siri" backgroundImage="c7f06ee3.jpg">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -346,8 +346,8 @@ JR東京駅八重洲南口前から「つくばセンター」行きに乗ると
             <objects>
                 <viewController id="8Jc-nv-tYh" userLabel="QRCode View Controller" customClass="QRCodeViewController" customModule="kojikenn" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="JNT-jk-Oqj"/>
-                        <viewControllerLayoutGuide type="bottom" id="fKx-Kb-RKv"/>
+                        <viewControllerLayoutGuide type="top" id="f9d-3X-QqZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="Rh2-9A-PHs"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="aZ4-X6-jQd">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -362,52 +362,6 @@ JR東京駅八重洲南口前から「つくばセンター」行きに乗ると
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zCS-Y4-a3u" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1288" y="-358"/>
-        </scene>
-        <!--Option View Controller-->
-        <scene sceneID="qqE-3v-AQF">
-            <objects>
-                <viewController id="GG0-Rj-1yo" customClass="OptionViewController" customModule="kojikenn" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="NFQ-KU-EXa"/>
-                        <viewControllerLayoutGuide type="bottom" id="pYZ-MJ-mcT"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="gOh-0y-rja">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="設定" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iNK-zg-jeh">
-                                <rect key="frame" x="109" y="72" width="102" height="51"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="F1y-AI-TOH"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Vrz-gb-vih" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1262" y="1040"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="M0k-nL-KIh">
-            <objects>
-                <viewController id="JQ0-F4-AE7" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="mCI-s2-D3i"/>
-                        <viewControllerLayoutGuide type="bottom" id="Gy7-S7-Nc8"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="eun-1J-nj6">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="27L-b5-DaX"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="xtD-4f-C6K" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="807" y="1040"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="mcD-wf-5R0">

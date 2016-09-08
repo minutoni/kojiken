@@ -14,11 +14,39 @@ class StartViewController: UIViewController {
     @IBOutlet weak var blinkView2: UIView!
     @IBOutlet weak var blinkView3: UIView!
     
+    // ボタン.
+    @IBOutlet var myButton: UIButton!
+    
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        // TouchUpの時のイベントを追加する.
+        //myButton.addTarget(self, action: "onUpButton:", forControlEvents: .TouchUpInside  )
+        
+        // ボタンを作成する.
+        myButton = UIButton()
+        myButton.layer.masksToBounds = true
+        
+        func onUpButton(sender: UIButton){
+            UIView.animateWithDuration(0.1,
+                                       
+                                       // アニメーション中の処理.
+                animations: { () -> Void in
+                    
+                    // 拡大用アフィン行列を作成する.
+                    self.myButton.transform = CGAffineTransformMakeScale(0.4, 0.4)
+                    
+                    // 縮小用アフィン行列を作成する.
+                    self.myButton.transform = CGAffineTransformMakeScale(1.0, 1.0)
+                    
+                })
+            { (Bool) -> Void in
+                
+            }
+        }
         
         
         
