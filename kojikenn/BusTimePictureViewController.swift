@@ -13,6 +13,9 @@ class BusTimePictureViewController: UIViewController {
     @IBOutlet var BusTimeImageView: UIImageView!
     var selectedImg: UIImage!
     
+    private var beforePoint = CGPointMake(0.0, 0.0)
+    private var currentScale:CGFloat = 1.0
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,7 +25,7 @@ class BusTimePictureViewController: UIViewController {
         //BusTimeImageView.contentMode = UIViewContentMode.ScaleAspectFit
         
         //BusTimePicture.image = BusTimeImageArray[index]
-
+        
         // Do any additional setup after loading the view.
         
         
@@ -35,14 +38,16 @@ class BusTimePictureViewController: UIViewController {
         
         
         // ピンチを認識.
-        let myPinchGesture = UIPinchGestureRecognizer(target: self, action: "pinchGesture:")
+        //        let myPinchGesture = UIPinchGestureRecognizer(target: self, action: "pinchGesture:")
+        //
+        //
+        //        self.BusTimeImageView.addGestureRecognizer(myPinchGesture)
         
-        
-        self.BusTimeImageView.addGestureRecognizer(myPinchGesture)
-        
+        let pinchGesture = UIPinchGestureRecognizer(target: self, action: "handleGesture:")
+        self.BusTimeImageView.addGestureRecognizer(pinchGesture)
         
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -51,6 +56,11 @@ class BusTimePictureViewController: UIViewController {
     }
     
     
+    func handleGesture(gesture: UIGestureRecognizer){
+        if let pinchGesture = gesture as? UIPinchGestureRecognizer{
+            pinch(pinchGesture)
+        }
+    }
     
     
     // ピンチジェスチャー
@@ -58,6 +68,31 @@ class BusTimePictureViewController: UIViewController {
         
         let scale = gesture.scale
         BusTimeImageView.transform = CGAffineTransformMakeScale(scale,scale)
+        
+    }
+    
+    private func pinch(gesture:UIPinchGestureRecognizer){
+        
+        
+        var scale = gesture.scale
+        if self.currentScale > 1.0{
+            scale = self.currentScale + (scale - 1.0)
+        }
+        switch gesture.state{
+        case .Changed:
+            let scaleTransform = CGAffineTransformMakeScale(scale, scale)
+            let transitionTransform = CGAffineTransformMakeTranslation(self.beforePoint.x, self.beforePoint.y)
+            self.BusTimeImageView.transform = CGAffineTransformConcat(scaleTransform, transitionTransform)
+        case .Ended , .Cancelled:
+            if scale <= 1.0{
+                self.currentScale = 1.0
+                self.BusTimeImageView.transform = CGAffineTransformIdentity
+            }else{
+                self.currentScale = scale
+            }
+        default:
+            NSLog("not action")
+        }
         
     }
     //パンジェスチャー
@@ -78,15 +113,15 @@ class BusTimePictureViewController: UIViewController {
     }
     
     
-
+    
     /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+     // MARK: - Navigation
+     
+     // In a storyboard-based application, you will often want to do a little preparation before navigation
+     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+     // Get the new view controller using segue.destinationViewController.
+     // Pass the selected object to the new view controller.
+     }
+     */
+    
 }

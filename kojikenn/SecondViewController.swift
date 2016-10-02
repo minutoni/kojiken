@@ -11,9 +11,17 @@ import UIKit
 class SecondViewController: UIViewController{
     
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+    }
+    
+    @IBAction func meikeiHPLinkButton() {
+        let url = NSURL(string: "http://www.meikei.ac.jp")
+        if UIApplication.sharedApplication().canOpenURL(url!){
+            UIApplication.sharedApplication().openURL(url!)
+        }
     }
     
 }

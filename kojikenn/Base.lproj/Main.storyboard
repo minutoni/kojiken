@@ -90,6 +90,14 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mmd.png" translatesAutoresizingMaskIntoConstraints="NO" id="RmF-d6-Kue">
                                 <rect key="frame" x="20" y="64" width="280" height="121"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vbW-x9-8ij">
+                                <rect key="frame" x="209" y="540" width="111" height="28"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="meikei.ac.jp"/>
+                                <connections>
+                                    <action selector="meikeiHPLinkButton" destination="jlv-On-Dr6" eventType="touchUpInside" id="V5j-AA-dxh"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
