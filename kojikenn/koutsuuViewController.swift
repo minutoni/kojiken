@@ -19,6 +19,10 @@ class koutsuuViewController: UIViewController {
     var isSpeaking = false
 
     override func viewDidLoad() {
+        
+        // テキストを編集不可にする.
+        speechText.editable = false
+        
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.

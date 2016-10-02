@@ -37,6 +37,7 @@ class BusTimePictureViewController: UIViewController {
         // ピンチを認識.
         let myPinchGesture = UIPinchGestureRecognizer(target: self, action: "pinchGesture:")
         
+        
         self.BusTimeImageView.addGestureRecognizer(myPinchGesture)
         
         
@@ -56,12 +57,9 @@ class BusTimePictureViewController: UIViewController {
     func pinchGesture(gesture:UIPinchGestureRecognizer){
         
         let scale = gesture.scale
-        BusTimeImageView.transform = CGAffineTransformMakeScale(scale, scale)
-        
+        BusTimeImageView.transform = CGAffineTransformMakeScale(scale,scale)
         
     }
-    
-    
     //パンジェスチャー
     func panGesture(gesture: UIPanGestureRecognizer){
         

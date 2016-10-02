@@ -48,6 +48,7 @@
 		7737B6AF1D289DB100E36C3E /* 研究学園.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7737B6331D289DB100E36C3E /* 研究学園.jpg */; };
 		773924881D01B28E00531DFC /* UITableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773924871D01B28E00531DFC /* UITableViewController.swift */; };
 		774D2D351D1E1F5300CB21DB /* BusTimePictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774D2D341D1E1F5300CB21DB /* BusTimePictureViewController.swift */; };
+		774E3AE11DA0D525009C164A /* GestureImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774E3AE01DA0D525009C164A /* GestureImageView.swift */; };
 		775BC97D1D27608F0005B14F /* koutsuuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775BC97C1D27608F0005B14F /* koutsuuViewController.swift */; };
 		7765EF6A1D181A280097B835 /* BusTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7765EF691D181A280097B835 /* BusTimeViewController.swift */; };
 		77744B301CCA3EE600D4024A /* logo_meikeiのコピー.png in Resources */ = {isa = PBXBuildFile; fileRef = 77744B2F1CCA3EE600D4024A /* logo_meikeiのコピー.png */; };
@@ -139,6 +140,7 @@
 		7737B6331D289DB100E36C3E /* 研究学園.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "研究学園.jpg"; path = "見学用写真/研究学園.jpg"; sourceTree = "<group>"; };
 		773924871D01B28E00531DFC /* UITableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewController.swift; sourceTree = "<group>"; };
 		774D2D341D1E1F5300CB21DB /* BusTimePictureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusTimePictureViewController.swift; sourceTree = "<group>"; };
+		774E3AE01DA0D525009C164A /* GestureImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GestureImageView.swift; sourceTree = "<group>"; };
 		775BC97C1D27608F0005B14F /* koutsuuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = koutsuuViewController.swift; sourceTree = "<group>"; };
 		7765EF691D181A280097B835 /* BusTimeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusTimeViewController.swift; sourceTree = "<group>"; };
 		77744B2F1CCA3EE600D4024A /* logo_meikeiのコピー.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo_meikeiのコピー.png"; sourceTree = "<group>"; };
@@ -292,6 +294,7 @@
 				774D2D341D1E1F5300CB21DB /* BusTimePictureViewController.swift */,
 				775BC97C1D27608F0005B14F /* koutsuuViewController.swift */,
 				77EF7EAF1CAF8E9A0071347A /* Main.storyboard */,
+				774E3AE01DA0D525009C164A /* GestureImageView.swift */,
 				7737B5B71D289DB000E36C3E /* 見学用写真 */,
 				77F044DC1CDEFF2D00A8FB55 /* 交通案内.jpg */,
 				7714D2BC1D573E9F00CF348D /* icon_002751_256.jpg */,
@@ -530,6 +533,7 @@
 				77B2ECFC1CDEE84700665F95 /* AccessUIserchViewController.swift in Sources */,
 				7765EF6A1D181A280097B835 /* BusTimeViewController.swift in Sources */,
 				77C50C491D16679D00A83F4D /* UITableViewSyousaiViewController.swift in Sources */,
+				774E3AE11DA0D525009C164A /* GestureImageView.swift in Sources */,
 				77FBA8881CB0E6D9000C7ABD /* StartViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

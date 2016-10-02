@@ -11,11 +11,17 @@ import UIKit
 class AccessUIserchViewController: UIViewController, UISearchBarDelegate {
     
     
+    
     //private var mySearchBar: UISearchBar!
     //private var myLabel : UILabel!
     
     override func viewDidLoad() {
+        
+        
+        
         super.viewDidLoad()
+        
+        
         
         
         

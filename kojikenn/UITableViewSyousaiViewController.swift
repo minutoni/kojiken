@@ -27,6 +27,8 @@ class UITableViewSyousaiViewController: UIViewController, UITextFieldDelegate {
     
     
     
+    
+    
     @IBOutlet var TableSyousaiImageView: UIImageView!
     var selectedImg: UIImage!
     
@@ -53,6 +55,9 @@ class UITableViewSyousaiViewController: UIViewController, UITextFieldDelegate {
            
 
         }
+        
+        // テキストを編集不可にする.
+        speechText.editable = false
         
         
         
