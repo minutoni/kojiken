@@ -54,8 +54,69 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3aa-Oh-M2o">
+                                <rect key="frame" x="273" y="521" width="47" height="47"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" image="icon_013783_256.jpg" backgroundImage="スクリーンショット 2016-08-07 18.34.53.png">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="7vW-L9-cUL" kind="push" id="dou-sx-v0f"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vbW-x9-8ij">
+                                <rect key="frame" x="0.0" y="538" width="120" height="30"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <state key="normal" title="meikei.ac.jp"/>
+                                <connections>
+                                    <action selector="meikeiHPLinkButton" destination="jlv-On-Dr6" eventType="touchUpInside" id="V5j-AA-dxh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0cr-Om-bIM">
+                                <rect key="frame" x="38" y="181" width="249" height="63"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="25"/>
+                                <state key="normal" title="学園紹介" backgroundImage="スクリーンショット 2016-08-07 18.34.53.png">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="X3Z-wY-FBB" kind="push" identifier="" id="8df-wD-0Ij"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XbB-Rf-W8L">
+                                <rect key="frame" x="212" y="522" width="53" height="46"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="校内マップ" image="icon_043933_256.jpg" backgroundImage="スクリーンショット 2016-08-07 18.34.53.png">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Uz4-g6-cWI" kind="push" id="V6r-4L-TkY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bbf-rQ-Rh4">
+                                <rect key="frame" x="38" y="426" width="248" height="67"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="25"/>
+                                <state key="normal" title="スクールバス時刻表" backgroundImage="スクリーンショット 2016-08-07 18.34.53.png">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="rvx-h4-ABv" kind="push" id="ZLy-gY-sem"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ttx-QN-owx">
+                                <rect key="frame" x="37" y="260" width="249" height="64"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="25"/>
+                                <state key="normal" title="スタディスキルズ" backgroundImage="スクリーンショット 2016-08-07 18.34.53.png">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="9yM-oR-CIw" kind="push" id="7rO-tX-8A6"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wFN-GB-bhl">
-                                <rect key="frame" x="29" y="196" width="263" height="72"/>
+                                <rect key="frame" x="37" y="341" width="248" height="67"/>
                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="25"/>
                                 <state key="normal" title="校内案内" backgroundImage="スクリーンショット 2016-08-07 18.34.53.png">
@@ -65,39 +126,27 @@
                                     <segue destination="QWl-u1-Y2s" kind="push" identifier="to kounaiannnai" id="glJ-U2-6vg"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3aa-Oh-M2o">
-                                <rect key="frame" x="29" y="296" width="263" height="72"/>
-                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="25"/>
-                                <state key="normal" title="アクセス" backgroundImage="スクリーンショット 2016-08-07 18.34.53.png">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="7vW-L9-cUL" kind="push" id="dou-sx-v0f"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bbf-rQ-Rh4">
-                                <rect key="frame" x="29" y="396" width="263" height="72"/>
-                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="25"/>
-                                <state key="normal" title="バス時刻表" backgroundImage="スクリーンショット 2016-08-07 18.34.53.png">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="rvx-h4-ABv" kind="push" id="ZLy-gY-sem"/>
-                                </connections>
-                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="アクセス" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dzp-r2-Ond">
+                                <rect key="frame" x="267" y="502" width="49" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.23921568627450981" green="0.60392156862745094" blue="0.84313725490196079" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="校内図" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="erP-BA-3s7">
+                                <rect key="frame" x="212" y="502" width="47" height="19"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.23921568627450981" green="0.61176470588235299" blue="0.85098039215686272" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="HPへ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ney-g6-6xf">
+                                <rect key="frame" x="0.0" y="523" width="41" height="25"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="0.11372549019607843" green="0.37254901960784315" blue="0.96470588235294119" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mmd.png" translatesAutoresizingMaskIntoConstraints="NO" id="RmF-d6-Kue">
-                                <rect key="frame" x="20" y="64" width="280" height="121"/>
+                                <rect key="frame" x="20" y="52" width="280" height="121"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vbW-x9-8ij">
-                                <rect key="frame" x="209" y="540" width="111" height="28"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
-                                <state key="normal" title="meikei.ac.jp"/>
-                                <connections>
-                                    <action selector="meikeiHPLinkButton" destination="jlv-On-Dr6" eventType="touchUpInside" id="V5j-AA-dxh"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -170,7 +219,7 @@ JR東京駅八重洲南口前から「つくばセンター」行きに乗ると
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IUF-R8-tJL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1712" y="-79"/>
+            <point key="canvasLocation" x="1051" y="1011"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="8k4-kd-mC7">
@@ -218,6 +267,12 @@ JR東京駅八重洲南口前から「つくばセンター」行きに乗ると
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="QRCode読み取り→" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RNC-ht-OhK">
+                                <rect key="frame" x="128" y="533" width="150" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -247,7 +302,7 @@ JR東京駅八重洲南口前から「つくばセンター」行きに乗ると
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EN1-KS-G67">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EN1-KS-G67">
                                 <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                                 <gestureRecognizers/>
                                 <connections>
@@ -265,7 +320,131 @@ JR東京駅八重洲南口前から「つくばセンター」行きに乗ると
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zbq-ee-adt" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <pinchGestureRecognizer id="2Ia-z5-gnU"/>
             </objects>
-            <point key="canvasLocation" x="2240" y="976"/>
+            <point key="canvasLocation" x="2319" y="1059"/>
+        </scene>
+        <!--Kounai Map View Controller-->
+        <scene sceneID="IL5-st-ZWo">
+            <objects>
+                <viewController id="Uz4-g6-cWI" customClass="KounaiMapViewController" customModule="kojikenn" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="FuH-YG-x4i"/>
+                        <viewControllerLayoutGuide type="bottom" id="OZx-qt-6Ka"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="MB9-9r-Khn">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="7eU-Kl-B6s" userLabel="kounai">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="kounaiCell" id="KBu-Ug-rsE">
+                                        <rect key="frame" x="0.0" y="92" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KBu-Ug-rsE" id="0mD-uw-Him">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Olv-Hk-2xa"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <outlet property="kounai" destination="7eU-Kl-B6s" id="a8I-77-2qJ"/>
+                        <segue destination="2xO-si-LtT" kind="push" identifier="tokounai" id="0UY-e4-n5T"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sJm-Hj-W4y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1393" y="1151"/>
+        </scene>
+        <!--Kounai Map Picture View Controller-->
+        <scene sceneID="JXA-8f-Laf">
+            <objects>
+                <viewController id="2xO-si-LtT" customClass="kounaiMapPictureViewController" customModule="kojikenn" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="X5R-81-y7I"/>
+                        <viewControllerLayoutGuide type="bottom" id="x0O-if-3Qh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ice-9H-ieg">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VSC-cX-Zpq">
+                                <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="dsl-8l-is2" appends="YES" id="sgr-vN-3Rp"/>
+                                </connections>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="GQB-C9-Cnj"/>
+                    <connections>
+                        <outlet property="kounaiImageView" destination="VSC-cX-Zpq" id="Liy-3E-PaW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Gil-Q5-qgc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <pinchGestureRecognizer id="dsl-8l-is2"/>
+            </objects>
+            <point key="canvasLocation" x="1846" y="1484"/>
+        </scene>
+        <!--Study Skills View Controller-->
+        <scene sceneID="pUo-Dy-M6v">
+            <objects>
+                <viewController id="9yM-oR-CIw" customClass="studySkillsViewController" customModule="kojikenn" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="534-xr-vCx"/>
+                        <viewControllerLayoutGuide type="bottom" id="oEN-Ap-SXz"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="meC-I1-KmT">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="bSe-P1-YXC">
+                                <rect key="frame" x="7" y="348" width="307" height="212"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">茗溪の目指す人間像
+
+困難に直面しても、希望を抱いて勇気をもって立ち向かおうとする。 人間や生き物への深い愛情を胸に、価値観の異なる人たちとも連帯して解決していく、そういう青年を育てます。このような教育のノウハウのひとつが「茗溪Study Skills」です。基本的な階層からスパイラルに、繰り返し繰り返し体験し思考し、少しずつ身につけていきます。
+
+Study Skills とは
+
+茗溪学園の考えるStudy Skillsとは「自ら学び・成長していく能力」の基礎となるものです。現代社会において、常に新しい知識や技術を学び取っていく力こそが社会で活躍する ために必要とされています。茗溪学園の教育は特定の能力のみを伸ばすことではなく、ひとりの生徒のトータルパフォーマンスを向上させるようにデザインされ ています。これこそが茗溪学園の卒業生が社会で高く評価されている所以です。また、単なる学習にとどまらず「体験を通して学習し考えること」、 「必要な情報を自ら収集し取捨選択し、再構成すること」、 「思考し構成した情報を記述し表現していくこと」、という高い目標が設定されています。</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="study_skills.png" translatesAutoresizingMaskIntoConstraints="NO" id="Yz1-V3-10N">
+                                <rect key="frame" x="72" y="64" width="176" height="226"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RPI-G1-9KI">
+                                <rect key="frame" x="258" y="282" width="62" height="58"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
+                                <state key="normal" title="Siri" backgroundImage="c7f06ee3.jpg">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="didTapButton:" destination="6Iu-9z-MvA" eventType="touchUpInside" id="Yc4-Mg-3Ch"/>
+                                    <action selector="didTapButton:" destination="9yM-oR-CIw" eventType="touchUpInside" id="uwF-zh-39J"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Qp4-IY-V0N"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <outlet property="speechText" destination="bSe-P1-YXC" id="5hL-H8-qfr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PM2-GQ-6tX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2189" y="291"/>
         </scene>
         <!--Bus Time View Controller-->
         <scene sceneID="wfm-TU-gPe">
@@ -280,7 +459,7 @@ JR東京駅八重洲南口前から「つくばセンター」行きに乗ると
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="48" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ZlS-2t-Wwo">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="48" id="enR-rV-bwq">
@@ -305,7 +484,58 @@ JR東京駅八重洲南口前から「つくばセンター」行きに乗ると
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EFW-xL-FpM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1749" y="761"/>
+            <point key="canvasLocation" x="1774" y="782"/>
+        </scene>
+        <!--Gakuensyoikaitable View-->
+        <scene sceneID="DwN-gB-z8F">
+            <objects>
+                <viewController id="X3Z-wY-FBB" customClass="GakuensyoikaitableView" customModule="kojikenn" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="FhP-DJ-4s2"/>
+                        <viewControllerLayoutGuide type="bottom" id="lgq-2V-JR4"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Lje-W6-Eev">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mk01.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="m7f-WM-UMA">
+                                <rect key="frame" x="14" y="72" width="293" height="186"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EHg-18-YtY">
+                                <rect key="frame" x="258" y="260" width="62" height="58"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
+                                <state key="normal" title="Siri" backgroundImage="c7f06ee3.jpg">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="didTapButton:" destination="6Iu-9z-MvA" eventType="touchUpInside" id="C2f-F9-bFt"/>
+                                    <action selector="didTapButton:" destination="X3Z-wY-FBB" eventType="touchUpInside" id="jhh-7L-mIl"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Vyl-Bz-Ug2">
+                                <rect key="frame" x="8" y="312" width="304" height="256"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">学園紹介　　　　　　　　　
+　　　　　　　　　　　　　　　　　　　　　　　　　　1979年、茗溪学園は国際的研究都市つくばにおける研究者子弟の教育を目的として「茗渓会」によって創立されました。正しい選択力と決断力、たくましい実行力、そして豊かな心を重視した全人的・総合的教育を行っています。
+
+建学の理念
+
+人類ならびに国家に貢献しうる『世界的日本人』を育成すべく知・徳・体の調和した人格の形成を図り特に創造的思考力に富む人材をつくる。</string>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="gNh-Hl-YbR"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <outlet property="speechText" destination="Vyl-Bz-Ug2" id="zn3-7z-i8R"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="clD-Aa-gDv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1880" y="-358"/>
         </scene>
         <!--Table View Syousai View Controller-->
         <scene sceneID="jWd-gy-dxf">
@@ -402,12 +632,16 @@ JR東京駅八重洲南口前から「つくばセンター」行きに乗ると
         <image name="QRcode-第一体育館.jpg" width="116" height="116"/>
         <image name="android-chrome-192x192.png" width="192" height="192"/>
         <image name="c7f06ee3.jpg" width="500" height="500"/>
+        <image name="icon_013783_256.jpg" width="256" height="256"/>
+        <image name="icon_043933_256.jpg" width="256" height="256"/>
         <image name="logo_meikeiのコピー.png" width="375" height="66"/>
+        <image name="mk01.jpg" width="680" height="227"/>
         <image name="mmd.png" width="980" height="406"/>
+        <image name="study_skills.png" width="159" height="243"/>
         <image name="スクリーンショット 2016-08-07 18.34.53.png" width="221" height="64"/>
         <image name="交通案内.jpg" width="680" height="567"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="xLG-eF-5C1"/>
+        <segue reference="bCA-M9-3yC"/>
     </inferredMetricsTieBreakers>
 </document>

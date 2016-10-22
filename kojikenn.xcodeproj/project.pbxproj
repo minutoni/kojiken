@@ -47,9 +47,14 @@
 		7737B6AE1D289DB100E36C3E /* ひたち野うしく.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7737B6321D289DB100E36C3E /* ひたち野うしく.jpg */; };
 		7737B6AF1D289DB100E36C3E /* 研究学園.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7737B6331D289DB100E36C3E /* 研究学園.jpg */; };
 		773924881D01B28E00531DFC /* UITableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773924871D01B28E00531DFC /* UITableViewController.swift */; };
+		77475DDD1DB1D11600C51547 /* gyoujisyoukaiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77475DDC1DB1D11600C51547 /* gyoujisyoukaiViewController.swift */; };
+		77475DDF1DB1D13800C51547 /* gyoujiSyoukaiSyousaiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77475DDE1DB1D13800C51547 /* gyoujiSyoukaiSyousaiViewController.swift */; };
+		77475DE11DB1D5BA00C51547 /* study_skills.png in Resources */ = {isa = PBXBuildFile; fileRef = 77475DE01DB1D5BA00C51547 /* study_skills.png */; };
+		77475DE31DB1D63400C51547 /* studySkillsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77475DE21DB1D63400C51547 /* studySkillsViewController.swift */; };
 		774D2D351D1E1F5300CB21DB /* BusTimePictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774D2D341D1E1F5300CB21DB /* BusTimePictureViewController.swift */; };
 		774E3AE11DA0D525009C164A /* GestureImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774E3AE01DA0D525009C164A /* GestureImageView.swift */; };
 		775BC97D1D27608F0005B14F /* koutsuuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775BC97C1D27608F0005B14F /* koutsuuViewController.swift */; };
+		7763250C1DA271F2003C8450 /* GakuensyoikaitableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7763250B1DA271F2003C8450 /* GakuensyoikaitableView.swift */; };
 		7765EF6A1D181A280097B835 /* BusTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7765EF691D181A280097B835 /* BusTimeViewController.swift */; };
 		77744B301CCA3EE600D4024A /* logo_meikeiのコピー.png in Resources */ = {isa = PBXBuildFile; fileRef = 77744B2F1CCA3EE600D4024A /* logo_meikeiのコピー.png */; };
 		77744B341CCA478C00D4024A /* mmd.png in Resources */ = {isa = PBXBuildFile; fileRef = 77744B331CCA478C00D4024A /* mmd.png */; };
@@ -60,6 +65,12 @@
 		7785B46B1D6D9B95000FD944 /* android-chrome-192x192.png in Resources */ = {isa = PBXBuildFile; fileRef = 7785B46A1D6D9B95000FD944 /* android-chrome-192x192.png */; };
 		7789AC421D6FD2D800CACFC5 /* QRcode-第一体育館.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7789AC411D6FD2D800CACFC5 /* QRcode-第一体育館.jpg */; };
 		7789AC441D6FFC3200CACFC5 /* 無線斑の電波塔.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7789AC431D6FFC3200CACFC5 /* 無線斑の電波塔.JPG */; };
+		77A45FA61DB30E3A005DC381 /* 1階.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 77A45FA31DB30E3A005DC381 /* 1階.jpg */; };
+		77A45FA71DB30E3A005DC381 /* 2階.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 77A45FA41DB30E3A005DC381 /* 2階.jpg */; };
+		77A45FA81DB30E3A005DC381 /* 3階.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 77A45FA51DB30E3A005DC381 /* 3階.jpg */; };
+		77A45FAA1DB30E8E005DC381 /* 4階.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 77A45FA91DB30E8E005DC381 /* 4階.jpg */; };
+		77A45FAC1DB33A60005DC381 /* icon_013783_256.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 77A45FAB1DB33A60005DC381 /* icon_013783_256.jpg */; };
+		77A45FAE1DB33C80005DC381 /* icon_043933_256.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 77A45FAD1DB33C80005DC381 /* icon_043933_256.jpg */; };
 		77B276F91D4C9A3C0010EF44 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 77B276F41D4C9A3C0010EF44 /* Default-568h@2x.png */; };
 		77B276FA1D4C9A3C0010EF44 /* Default-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 77B276F51D4C9A3C0010EF44 /* Default-667h@2x.png */; };
 		77B276FB1D4C9A3C0010EF44 /* Default-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 77B276F61D4C9A3C0010EF44 /* Default-736h@3x.png */; };
@@ -67,6 +78,10 @@
 		77B276FD1D4C9A3C0010EF44 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 77B276F81D4C9A3C0010EF44 /* Default@2x.png */; };
 		77B2ECFC1CDEE84700665F95 /* AccessUIserchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B2ECFB1CDEE84700665F95 /* AccessUIserchViewController.swift */; };
 		77C50C491D16679D00A83F4D /* UITableViewSyousaiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C50C481D16679D00A83F4D /* UITableViewSyousaiViewController.swift */; };
+		77D1E3691DA2A0580081CDD9 /* mk01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 77D1E3631DA2A0580081CDD9 /* mk01.jpg */; };
+		77D1E36A1DA2A0580081CDD9 /* mk02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 77D1E3641DA2A0580081CDD9 /* mk02.jpg */; };
+		77D1E36E1DA2A46A0081CDD9 /* KounaiMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D1E36D1DA2A46A0081CDD9 /* KounaiMapViewController.swift */; };
+		77D1E3701DA2A7620081CDD9 /* kounaiMapPictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D1E36F1DA2A7620081CDD9 /* kounaiMapPictureViewController.swift */; };
 		77EF7EAC1CAF8E9A0071347A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77EF7EAB1CAF8E9A0071347A /* AppDelegate.swift */; };
 		77EF7EAE1CAF8E9A0071347A /* QRCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77EF7EAD1CAF8E9A0071347A /* QRCodeViewController.swift */; };
 		77EF7EB11CAF8E9A0071347A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77EF7EAF1CAF8E9A0071347A /* Main.storyboard */; };
@@ -139,9 +154,14 @@
 		7737B6321D289DB100E36C3E /* ひたち野うしく.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "ひたち野うしく.jpg"; path = "見学用写真/ひたち野うしく.jpg"; sourceTree = "<group>"; };
 		7737B6331D289DB100E36C3E /* 研究学園.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "研究学園.jpg"; path = "見学用写真/研究学園.jpg"; sourceTree = "<group>"; };
 		773924871D01B28E00531DFC /* UITableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewController.swift; sourceTree = "<group>"; };
+		77475DDC1DB1D11600C51547 /* gyoujisyoukaiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = gyoujisyoukaiViewController.swift; sourceTree = "<group>"; };
+		77475DDE1DB1D13800C51547 /* gyoujiSyoukaiSyousaiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = gyoujiSyoukaiSyousaiViewController.swift; sourceTree = "<group>"; };
+		77475DE01DB1D5BA00C51547 /* study_skills.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = study_skills.png; sourceTree = "<group>"; };
+		77475DE21DB1D63400C51547 /* studySkillsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = studySkillsViewController.swift; sourceTree = "<group>"; };
 		774D2D341D1E1F5300CB21DB /* BusTimePictureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusTimePictureViewController.swift; sourceTree = "<group>"; };
 		774E3AE01DA0D525009C164A /* GestureImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GestureImageView.swift; sourceTree = "<group>"; };
 		775BC97C1D27608F0005B14F /* koutsuuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = koutsuuViewController.swift; sourceTree = "<group>"; };
+		7763250B1DA271F2003C8450 /* GakuensyoikaitableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GakuensyoikaitableView.swift; sourceTree = "<group>"; };
 		7765EF691D181A280097B835 /* BusTimeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusTimeViewController.swift; sourceTree = "<group>"; };
 		77744B2F1CCA3EE600D4024A /* logo_meikeiのコピー.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo_meikeiのコピー.png"; sourceTree = "<group>"; };
 		77744B331CCA478C00D4024A /* mmd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mmd.png; path = ../mmd.png; sourceTree = "<group>"; };
@@ -152,6 +172,12 @@
 		7785B46A1D6D9B95000FD944 /* android-chrome-192x192.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "android-chrome-192x192.png"; sourceTree = "<group>"; };
 		7789AC411D6FD2D800CACFC5 /* QRcode-第一体育館.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "QRcode-第一体育館.jpg"; sourceTree = "<group>"; };
 		7789AC431D6FFC3200CACFC5 /* 無線斑の電波塔.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "無線斑の電波塔.JPG"; path = "../無線斑の電波塔.JPG"; sourceTree = "<group>"; };
+		77A45FA31DB30E3A005DC381 /* 1階.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "1階.jpg"; path = "../1階.jpg"; sourceTree = "<group>"; };
+		77A45FA41DB30E3A005DC381 /* 2階.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "2階.jpg"; path = "../2階.jpg"; sourceTree = "<group>"; };
+		77A45FA51DB30E3A005DC381 /* 3階.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "3階.jpg"; path = "../3階.jpg"; sourceTree = "<group>"; };
+		77A45FA91DB30E8E005DC381 /* 4階.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "4階.jpg"; path = "../4階.jpg"; sourceTree = "<group>"; };
+		77A45FAB1DB33A60005DC381 /* icon_013783_256.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = icon_013783_256.jpg; sourceTree = "<group>"; };
+		77A45FAD1DB33C80005DC381 /* icon_043933_256.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = icon_043933_256.jpg; sourceTree = "<group>"; };
 		77B276F41D4C9A3C0010EF44 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		77B276F51D4C9A3C0010EF44 /* Default-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-667h@2x.png"; sourceTree = "<group>"; };
 		77B276F61D4C9A3C0010EF44 /* Default-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-736h@3x.png"; sourceTree = "<group>"; };
@@ -159,6 +185,10 @@
 		77B276F81D4C9A3C0010EF44 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		77B2ECFB1CDEE84700665F95 /* AccessUIserchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccessUIserchViewController.swift; sourceTree = "<group>"; };
 		77C50C481D16679D00A83F4D /* UITableViewSyousaiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewSyousaiViewController.swift; sourceTree = "<group>"; };
+		77D1E3631DA2A0580081CDD9 /* mk01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mk01.jpg; sourceTree = "<group>"; };
+		77D1E3641DA2A0580081CDD9 /* mk02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mk02.jpg; sourceTree = "<group>"; };
+		77D1E36D1DA2A46A0081CDD9 /* KounaiMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KounaiMapViewController.swift; sourceTree = "<group>"; };
+		77D1E36F1DA2A7620081CDD9 /* kounaiMapPictureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = kounaiMapPictureViewController.swift; sourceTree = "<group>"; };
 		77EF7EA81CAF8E9A0071347A /* kojikenn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kojikenn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77EF7EAB1CAF8E9A0071347A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		77EF7EAD1CAF8E9A0071347A /* QRCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeViewController.swift; sourceTree = "<group>"; };
@@ -290,11 +320,26 @@
 				77B2ECFB1CDEE84700665F95 /* AccessUIserchViewController.swift */,
 				773924871D01B28E00531DFC /* UITableViewController.swift */,
 				77C50C481D16679D00A83F4D /* UITableViewSyousaiViewController.swift */,
+				77475DDC1DB1D11600C51547 /* gyoujisyoukaiViewController.swift */,
+				77475DDE1DB1D13800C51547 /* gyoujiSyoukaiSyousaiViewController.swift */,
 				7765EF691D181A280097B835 /* BusTimeViewController.swift */,
 				774D2D341D1E1F5300CB21DB /* BusTimePictureViewController.swift */,
 				775BC97C1D27608F0005B14F /* koutsuuViewController.swift */,
-				77EF7EAF1CAF8E9A0071347A /* Main.storyboard */,
 				774E3AE01DA0D525009C164A /* GestureImageView.swift */,
+				7763250B1DA271F2003C8450 /* GakuensyoikaitableView.swift */,
+				77D1E36D1DA2A46A0081CDD9 /* KounaiMapViewController.swift */,
+				77D1E36F1DA2A7620081CDD9 /* kounaiMapPictureViewController.swift */,
+				77475DE21DB1D63400C51547 /* studySkillsViewController.swift */,
+				77EF7EAF1CAF8E9A0071347A /* Main.storyboard */,
+				77A45FAD1DB33C80005DC381 /* icon_043933_256.jpg */,
+				77A45FAB1DB33A60005DC381 /* icon_013783_256.jpg */,
+				77475DE01DB1D5BA00C51547 /* study_skills.png */,
+				77D1E3631DA2A0580081CDD9 /* mk01.jpg */,
+				77D1E3641DA2A0580081CDD9 /* mk02.jpg */,
+				77A45FA31DB30E3A005DC381 /* 1階.jpg */,
+				77A45FA41DB30E3A005DC381 /* 2階.jpg */,
+				77A45FA51DB30E3A005DC381 /* 3階.jpg */,
+				77A45FA91DB30E8E005DC381 /* 4階.jpg */,
 				7737B5B71D289DB000E36C3E /* 見学用写真 */,
 				77F044DC1CDEFF2D00A8FB55 /* 交通案内.jpg */,
 				7714D2BC1D573E9F00CF348D /* icon_002751_256.jpg */,
@@ -441,13 +486,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77A45FAA1DB30E8E005DC381 /* 4階.jpg in Resources */,
 				7737B6821D289DB100E36C3E /* 保健室.JPG in Resources */,
 				7737B6AE1D289DB100E36C3E /* ひたち野うしく.jpg in Resources */,
 				7737B6481D289DB100E36C3E /* コモンスペース２.JPG in Resources */,
 				7737B6781D289DB100E36C3E /* 第三美術室.JPG in Resources */,
+				77A45FA61DB30E3A005DC381 /* 1階.jpg in Resources */,
 				7737B6341D289DB100E36C3E /* 6方面-2.jpg in Resources */,
 				7737B69B1D289DB100E36C3E /* 中庭.JPG in Resources */,
 				7737B6AF1D289DB100E36C3E /* 研究学園.jpg in Resources */,
+				77D1E36A1DA2A0580081CDD9 /* mk02.jpg in Resources */,
 				7737B69F1D289DB100E36C3E /* 柔道場.JPG in Resources */,
 				7737B6591D289DB100E36C3E /* 進路資料室.JPG in Resources */,
 				7708CEED1D4E1F2B00B2FE94 /* 寮.JPG in Resources */,
@@ -464,6 +512,7 @@
 				7737B66A1D289DB100E36C3E /* 書道室.JPG in Resources */,
 				7789AC421D6FD2D800CACFC5 /* QRcode-第一体育館.jpg in Resources */,
 				77EF7EB11CAF8E9A0071347A /* Main.storyboard in Resources */,
+				77A45FA71DB30E3A005DC381 /* 2階.jpg in Resources */,
 				7737B65D1D289DB100E36C3E /* 図書室.JPG in Resources */,
 				7737B6841D289DB100E36C3E /* 事務室.JPG in Resources */,
 				7737B6351D289DB100E36C3E /* 6方面-3.jpg in Resources */,
@@ -486,17 +535,22 @@
 				7737B6791D289DB100E36C3E /* HR教室.JPG in Resources */,
 				7737B6731D289DB100E36C3E /* セミナー室.JPG in Resources */,
 				7708CEF11D4E1F2B00B2FE94 /* 食堂前.JPG in Resources */,
+				77A45FAE1DB33C80005DC381 /* icon_043933_256.jpg in Resources */,
+				77475DE11DB1D5BA00C51547 /* study_skills.png in Resources */,
 				7737B6951D289DB100E36C3E /* 購買.JPG in Resources */,
 				7737B6361D289DB100E36C3E /* 6方面.jpg in Resources */,
+				77A45FAC1DB33A60005DC381 /* icon_013783_256.jpg in Resources */,
 				7737B63D1D289DB100E36C3E /* 第二体育館.JPG in Resources */,
 				7737B6691D289DB100E36C3E /* 101教室.JPG in Resources */,
 				7737B6451D289DB100E36C3E /* 第二美術室.JPG in Resources */,
+				77A45FA81DB30E3A005DC381 /* 3階.jpg in Resources */,
 				7737B67F1D289DB100E36C3E /* 第一コンピューター室.JPG in Resources */,
 				7789AC441D6FFC3200CACFC5 /* 無線斑の電波塔.JPG in Resources */,
 				77B276FA1D4C9A3C0010EF44 /* Default-667h@2x.png in Resources */,
 				7737B6741D289DB100E36C3E /* 第一美術室.JPG in Resources */,
 				7708CEF41D4E2DBA00B2FE94 /* コモンスペース1.JPG in Resources */,
 				77845B141D5B2A24003C60D5 /* 校長室前廊下.JPG in Resources */,
+				77D1E3691DA2A0580081CDD9 /* mk01.jpg in Resources */,
 				77B276FD1D4C9A3C0010EF44 /* Default@2x.png in Resources */,
 				7737B6541D289DB100E36C3E /* 生物実験室.JPG in Resources */,
 			);
@@ -527,13 +581,19 @@
 				77FBA88A1CB0E837000C7ABD /* SecondViewController.swift in Sources */,
 				775BC97D1D27608F0005B14F /* koutsuuViewController.swift in Sources */,
 				77FBA88C1CB0F130000C7ABD /* OptionViewController.swift in Sources */,
+				77D1E36E1DA2A46A0081CDD9 /* KounaiMapViewController.swift in Sources */,
+				77475DDD1DB1D11600C51547 /* gyoujisyoukaiViewController.swift in Sources */,
+				77475DE31DB1D63400C51547 /* studySkillsViewController.swift in Sources */,
 				774D2D351D1E1F5300CB21DB /* BusTimePictureViewController.swift in Sources */,
+				77475DDF1DB1D13800C51547 /* gyoujiSyoukaiSyousaiViewController.swift in Sources */,
 				77EF7EAE1CAF8E9A0071347A /* QRCodeViewController.swift in Sources */,
+				7763250C1DA271F2003C8450 /* GakuensyoikaitableView.swift in Sources */,
 				77EF7EAC1CAF8E9A0071347A /* AppDelegate.swift in Sources */,
 				77B2ECFC1CDEE84700665F95 /* AccessUIserchViewController.swift in Sources */,
 				7765EF6A1D181A280097B835 /* BusTimeViewController.swift in Sources */,
 				77C50C491D16679D00A83F4D /* UITableViewSyousaiViewController.swift in Sources */,
 				774E3AE11DA0D525009C164A /* GestureImageView.swift in Sources */,
+				77D1E3701DA2A7620081CDD9 /* kounaiMapPictureViewController.swift in Sources */,
 				77FBA8881CB0E6D9000C7ABD /* StartViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -674,12 +734,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: toni minu (8Q46758X4P)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = kojikenn/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "life-is-tech.kojikenn";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "425ba4a0-11e2-4750-a8ff-4e25b5296124";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -687,12 +749,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: toni minu (8Q46758X4P)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = kojikenn/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "life-is-tech.kojikenn";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "425ba4a0-11e2-4750-a8ff-4e25b5296124";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
