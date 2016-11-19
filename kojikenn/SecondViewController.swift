@@ -23,5 +23,10 @@ class SecondViewController: UIViewController{
             UIApplication.sharedApplication().openURL(url!)
         }
     }
-    
+    @IBAction func QuestantLinkButton() {
+        let url = NSURL(string: "https://questant.jp/q/GE0S93C9")
+        if UIApplication.sharedApplication().canOpenURL(url!){
+            UIApplication.sharedApplication().openURL(url!)
+        }
+    }
 }

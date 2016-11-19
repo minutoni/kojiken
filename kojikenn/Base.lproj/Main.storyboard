@@ -65,9 +65,9 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vbW-x9-8ij">
-                                <rect key="frame" x="0.0" y="538" width="120" height="30"/>
+                                <rect key="frame" x="0.0" y="539" width="73" height="32"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
-                                <state key="normal" title="meikei.ac.jp"/>
+                                <state key="normal" title="meikei"/>
                                 <connections>
                                     <action selector="meikeiHPLinkButton" destination="jlv-On-Dr6" eventType="touchUpInside" id="V5j-AA-dxh"/>
                                 </connections>
@@ -147,6 +147,22 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mmd.png" translatesAutoresizingMaskIntoConstraints="NO" id="RmF-d6-Kue">
                                 <rect key="frame" x="20" y="52" width="280" height="121"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Twv-tM-zsu">
+                                <rect key="frame" x="151" y="522" width="53" height="46"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="校内マップ" image="icon_045963_256.jpg" backgroundImage="スクリーンショット 2016-08-07 18.34.53.png">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="QuestantLinkButton" destination="jlv-On-Dr6" eventType="touchUpInside" id="f2G-Bp-tJT"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="アンケート" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tb8-nV-pyy">
+                                <rect key="frame" x="147" y="502" width="60" height="19"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.23921568630000001" green="0.61176470589999998" blue="0.85098039219999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -634,6 +650,7 @@ Study Skills とは
         <image name="c7f06ee3.jpg" width="500" height="500"/>
         <image name="icon_013783_256.jpg" width="256" height="256"/>
         <image name="icon_043933_256.jpg" width="256" height="256"/>
+        <image name="icon_045963_256.jpg" width="256" height="256"/>
         <image name="logo_meikeiのコピー.png" width="375" height="66"/>
         <image name="mk01.jpg" width="680" height="227"/>
         <image name="mmd.png" width="980" height="406"/>
@@ -642,6 +659,6 @@ Study Skills とは
         <image name="交通案内.jpg" width="680" height="567"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="bCA-M9-3yC"/>
+        <segue reference="xLG-eF-5C1"/>
     </inferredMetricsTieBreakers>
 </document>

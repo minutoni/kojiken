@@ -65,6 +65,7 @@
 		7785B46B1D6D9B95000FD944 /* android-chrome-192x192.png in Resources */ = {isa = PBXBuildFile; fileRef = 7785B46A1D6D9B95000FD944 /* android-chrome-192x192.png */; };
 		7789AC421D6FD2D800CACFC5 /* QRcode-第一体育館.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7789AC411D6FD2D800CACFC5 /* QRcode-第一体育館.jpg */; };
 		7789AC441D6FFC3200CACFC5 /* 無線斑の電波塔.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7789AC431D6FFC3200CACFC5 /* 無線斑の電波塔.JPG */; };
+		778B23E91DE02546000694AD /* icon_045963_256.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 778B23E81DE02546000694AD /* icon_045963_256.jpg */; };
 		77A45FA61DB30E3A005DC381 /* 1階.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 77A45FA31DB30E3A005DC381 /* 1階.jpg */; };
 		77A45FA71DB30E3A005DC381 /* 2階.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 77A45FA41DB30E3A005DC381 /* 2階.jpg */; };
 		77A45FA81DB30E3A005DC381 /* 3階.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 77A45FA51DB30E3A005DC381 /* 3階.jpg */; };
@@ -172,6 +173,7 @@
 		7785B46A1D6D9B95000FD944 /* android-chrome-192x192.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "android-chrome-192x192.png"; sourceTree = "<group>"; };
 		7789AC411D6FD2D800CACFC5 /* QRcode-第一体育館.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "QRcode-第一体育館.jpg"; sourceTree = "<group>"; };
 		7789AC431D6FFC3200CACFC5 /* 無線斑の電波塔.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "無線斑の電波塔.JPG"; path = "../無線斑の電波塔.JPG"; sourceTree = "<group>"; };
+		778B23E81DE02546000694AD /* icon_045963_256.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = icon_045963_256.jpg; sourceTree = "<group>"; };
 		77A45FA31DB30E3A005DC381 /* 1階.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "1階.jpg"; path = "../1階.jpg"; sourceTree = "<group>"; };
 		77A45FA41DB30E3A005DC381 /* 2階.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "2階.jpg"; path = "../2階.jpg"; sourceTree = "<group>"; };
 		77A45FA51DB30E3A005DC381 /* 3階.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "3階.jpg"; path = "../3階.jpg"; sourceTree = "<group>"; };
@@ -331,6 +333,7 @@
 				77D1E36F1DA2A7620081CDD9 /* kounaiMapPictureViewController.swift */,
 				77475DE21DB1D63400C51547 /* studySkillsViewController.swift */,
 				77EF7EAF1CAF8E9A0071347A /* Main.storyboard */,
+				778B23E81DE02546000694AD /* icon_045963_256.jpg */,
 				77A45FAD1DB33C80005DC381 /* icon_043933_256.jpg */,
 				77A45FAB1DB33A60005DC381 /* icon_013783_256.jpg */,
 				77475DE01DB1D5BA00C51547 /* study_skills.png */,
@@ -543,6 +546,7 @@
 				7737B63D1D289DB100E36C3E /* 第二体育館.JPG in Resources */,
 				7737B6691D289DB100E36C3E /* 101教室.JPG in Resources */,
 				7737B6451D289DB100E36C3E /* 第二美術室.JPG in Resources */,
+				778B23E91DE02546000694AD /* icon_045963_256.jpg in Resources */,
 				77A45FA81DB30E3A005DC381 /* 3階.jpg in Resources */,
 				7737B67F1D289DB100E36C3E /* 第一コンピューター室.JPG in Resources */,
 				7789AC441D6FFC3200CACFC5 /* 無線斑の電波塔.JPG in Resources */,
